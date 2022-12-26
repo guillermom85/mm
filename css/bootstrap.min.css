@@ -4,6 +4,13 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+ @font-face {
+    font-family: Cocomat;
+    font-weight: 600;
+    font-style: normal;
+    src: url("https://guillermom85.github.io/mm/font/Cocomat%20Light-trial.ttf");
+  }
+  
 :root {
     --bs-blue: #0d6efd;
     --bs-indigo: #6610f2;
@@ -26,8 +33,8 @@
     --bs-danger: #dc3545;
     --bs-light: #f8f8f8;
     --bs-dark: #252525;
-    --bs-font-sans-serif: "Cocomat Light-trial";
-    --bs-font-monospace: "Cocomat Ultralight-trial";
+    --bs-font-sans-serif: "Cocomat";
+    --bs-font-monospace: "Cocomat";
     --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
 }
 *,
@@ -42,7 +49,7 @@
 }
 body {
     margin: 0;
-    font-family: "Cocomat Light-trial", "Cocomat Ultralight-trial";
+    font-family: "Cocomat";
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -75,7 +82,7 @@ h6,
 .h6 {
     margin-top: 0;
     margin-bottom: 0.5rem;
-    font-family: "Cocomat Light-trial", "Cocomat Ultralight-trial";
+    font-family: "Cocomat";
     font-weight: 500;
     line-height: 1.2;
     color: #252525;
@@ -5126,7 +5133,7 @@ fieldset:disabled .btn {
     z-index: 1080;
     display: block;
     margin: 0;
-    font-family: "Cocomat Light-trial", "Cocomat Ultralight-trial";
+    font-family: "Cocomat";
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
@@ -5234,7 +5241,7 @@ fieldset:disabled .btn {
     z-index: 1070;
     display: block;
     max-width: 276px;
-    font-family: "Cocomat Light-trial", "Cocomat Ultralight-trial";
+    font-family: "Cocomat";
     font-style: normal;
     font-weight: 400;
     line-height: 1.5;
