@@ -3388,8 +3388,8 @@ fieldset:disabled .btn {
     width: 100%;
     padding: 0.25rem 1rem;
     clear: both;
-    font-weight: 400;
-    color: #212529;
+    font-weight: 800;
+    color: white;
     text-align: inherit;
     white-space: nowrap;
     background-color: transparent;

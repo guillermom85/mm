@@ -102,6 +102,12 @@ h6,
 
 
 /*** Navbar ***/
+.header-menu #navbarCollapse .nav-item,
+.header-menu #navbarCollapse .nav-link.dropdown-toggle {
+    color: white;
+    font-weight: 800;
+} 
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
