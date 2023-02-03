@@ -106,7 +106,7 @@ h6,
 .header-menu #navbarCollapse .nav-link.dropdown-toggle {
     color: white;
     font-weight: 800;
-} 
+}
 
 .navbar .dropdown-toggle::after {
     border: none;
@@ -118,13 +118,13 @@ h6,
 }
 
 .navbar.navbar-expand-lg.navbar-light.sticky-top.py-lg-0.px-lg-5.wow.fadeIn.shadow-sm {
-	background-color: #94cbf4 !important;
+    background-color: #94cbf4 !important;
 }
 
 .navbar.navbar-expand-lg.navbar-light.sticky-top.py-lg-0.px-lg-5.wow.fadeIn.shadow-sm .dropdown-menu {
-	background-color: #94cbf4 !important;
+    background-color: #94cbf4 !important;
 }
- 
+
 .navbar .navbar-nav .nav-link {
     margin-right: 30px;
     padding: 30px 0;
@@ -264,42 +264,34 @@ h6,
 }
 
 .products-container .products {
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
-	cursor:pointer;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
 }
 
 .products-container .products.reactivos {
-	background-image: url(../img/icons/reactivos.png);
-}
-
-.products-container .products.reactivos:hover {
-	background-image: url(../img/icons/reactivos-hover.png);
+    background-image: url(../img/icons/reactivos.png);
 }
 
 .products-container .products.descartables {
-	background-image: url(../img/icons/descartables.png);
-}
-
-.products-container .products.descartables:hover {
-	background-image: url(../img/icons/descartables-hover.png);
+    background-image: url(../img/icons/descartables.png);
 }
 
 .products-container .products.livianos {
-	background-image: url(../img/icons/livianos.png);
-}
-
-.products-container .products.livianos:hover {
-	background-image: url(../img/icons/livianos-hover.png);
+    background-image: url(../img/icons/livianos.png);
 }
 
 .products-container .products.automaticos {
-	background-image: url(../img/icons/automaticos.png);
+    background-image: url(../img/icons/automaticos.png);
 }
 
-.products-container .products.automaticos:hover {
-	background-image: url(../img/icons/automaticos-hover.png);
+.products-container .products .products-inner {
+    height: 350px;
+}
+
+.products-container .products .products-inner:hover {
+    height: 380px;
 }
 
 /*** Facts ***/
@@ -318,7 +310,7 @@ h6,
 
 .fact-item:hover .fact-icon {
     background: var(--dark);
-	opacity:0.5;
+    opacity: 0.5;
 }
 
 .fact-item .fact-icon i {
@@ -332,6 +324,29 @@ h6,
 
 
 /*** About & Feature ***/
+
+.about-content {
+    padding-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+
+.about-img {
+    background-image: url(../img/fondos/about.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-left: 10%;
+}
+
+.about-img h2 {
+    color: white;
+    font-size: 3.5rem;
+}
+
 .about-img,
 .feature-img {
     position: relative;
@@ -362,6 +377,17 @@ h6,
     left: 20%;
     border: 5px solid var(--primary);
     z-index: -1;
+}
+
+.about-text {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+.about-text p {
+    font-size: 1.2rem;
+    text-align: right;
 }
 
 
@@ -518,13 +544,14 @@ h6,
     height: 60px;
     margin: 0 5px;
     transition: .5s;
-	align-items: center;
+    align-items: center;
     justify-content: center;
     display: flex;
-	padding:0.5rem;
+    padding: 0.5rem;
 }
+
 .testimonial-carousel .owl-dots .owl-dot.active {
-    padding:0;
+    padding: 0;
 }
 
 .testimonial-carousel .owl-dots .owl-dot.active {
@@ -610,10 +637,10 @@ h6,
     color: var(--primary);
 }
 
-p{
+p {
     color: black !important;
 }
 
-h3{
-	color: var(--primary) !important;
+h3 {
+    color: var(--primary) !important;
 }
