@@ -390,6 +390,66 @@ h6,
     text-align: right;
 }
 
+.our-work-content {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 0;
+}
+
+.our-work-img {
+    background-image: url(../img/fondos/our-work.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-right: 10%;
+}
+
+.our-work-img h2 {
+    color: white;
+    font-size: 3.5rem;
+    text-align: right;
+}
+
+.our-work-img {
+    position: relative;
+    height: 100%;
+}
+
+.our-work-img img {
+    position: absolute;
+    width: 60%;
+    height: 80%;
+    object-fit: cover;
+}
+
+.our-work-img img:last-child{
+    margin: 20% 0 0 40%;
+}
+
+.our-work-img::before {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 80%;
+    top: 10%;
+    left: 20%;
+    border: 5px solid var(--primary);
+    z-index: -1;
+}
+
+.our-work-text {
+    display: flex;
+    align-items: center;
+    padding: 3rem;
+}
+
+.our-work-text p {
+    font-size: 1.2rem;
+    text-align: left;
+}
 
 /*** Service ***/
 .service-item .bg-img {
