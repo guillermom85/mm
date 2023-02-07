@@ -118,11 +118,11 @@ h6,
 }
 
 .navbar.navbar-expand-lg.navbar-light.sticky-top.py-lg-0.px-lg-5.wow.fadeIn.shadow-sm {
-    background-color: #94cbf4 !important;
+    background-color: #3d5998d9 !important;
 }
 
 .navbar.navbar-expand-lg.navbar-light.sticky-top.py-lg-0.px-lg-5.wow.fadeIn.shadow-sm .dropdown-menu {
-    background-color: #94cbf4 !important;
+    background-color: #3d5998d9 !important;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -451,6 +451,42 @@ h6,
     text-align: left;
 }
 
+.trajectory-content h2 {
+    text-align: right;
+    margin-right: 4rem;
+    color: #3d5998;
+    font-size: 3.5rem;
+    padding-bottom: 1.5rem;
+    
+}
+
+.trajectory-img {
+    background-image: url(../img/fondos/trajectory.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    position: relative;
+    height: 100%;
+    min-height: 400px;
+    padding: 4rem;
+    font-size: 1.5rem;
+    
+}
+
+.trajectory-img p {
+    color: white !important;
+}
+
+.quality .quality-img {
+    display: flex;
+    justify-content: center;
+    margin-top: -150px;
+}
+
+.quality .quality-img img {
+    width: 340px;
+}
+
 /*** Service ***/
 .service-item .bg-img {
     position: absolute;
@@ -653,6 +689,13 @@ h6,
 
 
 /*** Footer ***/
+.footer-bg{
+    background-image: url(../img/fondos/footer.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
 .footer .btn.btn-link {
     display: block;
     margin-bottom: 5px;
@@ -698,7 +741,7 @@ h6,
 }
 
 p {
-    color: black !important;
+    color: #3d5998 !important;
 }
 
 h3 {
