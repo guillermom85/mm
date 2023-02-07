@@ -367,18 +367,6 @@ h6,
     margin: 20% 0 0 40%;
 }
 
-.about-img::before,
-.feature-img::before {
-    position: absolute;
-    content: "";
-    width: 60%;
-    height: 80%;
-    top: 10%;
-    left: 20%;
-    border: 5px solid var(--primary);
-    z-index: -1;
-}
-
 .about-text {
     display: flex;
     align-items: center;
@@ -427,17 +415,6 @@ h6,
 
 .our-work-img img:last-child{
     margin: 20% 0 0 40%;
-}
-
-.our-work-img::before {
-    position: absolute;
-    content: "";
-    width: 60%;
-    height: 80%;
-    top: 10%;
-    left: 20%;
-    border: 5px solid var(--primary);
-    z-index: -1;
 }
 
 .our-work-text {
