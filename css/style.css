@@ -1,4 +1,11 @@
 /********** Template CSS **********/
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 :root {
   --primary: #003257;
   --light: #f8f8f8;
@@ -721,14 +728,14 @@ h3 {
 }
 
 .quality-bar {
-  background-color: #a0acc4;
   padding-top: 1rem;
   display: flex;
   align-items: center;
   justify-items: center;
   padding-bottom: 1rem;
-  margin-top: 3rem;
+  margin-top: -6rem;
   margin-bottom: 3rem;
+  max-width: 100%;
 }
 .quality-bar-item {
   flex: auto;
@@ -736,6 +743,11 @@ h3 {
   align-items: center;
   justify-content: center;
   border-right: 1px dotted #fff;
+  flex-direction: row;
+}
+.quality-bar-item img {
+  max-width: 3rem;
+  padding-right: 1rem;
 }
 .quality-bar-item p {
   transition: 0.15s ease-out;
@@ -757,6 +769,29 @@ h3 {
   cursor: default;
 }
 
+.home-card-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.home-card-container p {
+  cursor: default;
+}
+
+.home-card-subcontainer {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.home-card-subcontainer-devided {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.background-cover {
+  background-size: cover;
+}
+
 .opacity-effect {
   transition: ease-in-out 0.2s;
   opacity: 1;
@@ -764,5 +799,12 @@ h3 {
 
 .opacity-effect:hover {
   transition: ease-in-out 0.2s;
-  opacity: 0.3;
+  opacity: 0.6;
+}
+
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
