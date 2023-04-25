@@ -740,7 +740,7 @@ h6,
 }
 
 .footer .form-control {
-      border: 1px solid white !important;
+  border: 1px solid white !important;
 }
 
 .footer .copyright {
@@ -853,6 +853,15 @@ h3 {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.values .btn.btn-link::before {
+  position: relative;
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: var(--primary) !important;
+  margin-right: 10px;
 }
 
 @media screen and (max-width: 1183px) {
