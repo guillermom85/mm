@@ -1,5 +1,11 @@
 /********** Template CSS **********/
 
+@font-face {
+  font-family: "Cocomat";
+  src: url("../font/Cocomat_Pro.ttf") format("truetype");  
+}
+
+
 html,
 body {
   max-width: 100%;
@@ -759,6 +765,7 @@ h6,
 
 p {
   color: #3d5998 !important;
+  font-family: "Cocomat" !important;
 }
 
 h3 {
