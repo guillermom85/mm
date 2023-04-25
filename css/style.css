@@ -71,6 +71,8 @@ h6,
 .btn.btn-primary,
 .btn.btn-secondary {
   color: #ffffff;
+  background-color: #3d5998;
+  border: none;
 }
 
 .btn-square {
@@ -157,6 +159,17 @@ h6,
   background-color: #3d5998d9 !important;
 }
 
+.contactenos .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.contactenos img {
+  width: 20px;
+}
+
 @media (max-width: 991.98px) {
   .navbar .navbar-nav .nav-link {
     margin-right: 0;
@@ -184,6 +197,13 @@ h6,
     visibility: visible;
     transition: 0.5s;
     opacity: 1;
+  }
+  .navbar .collapse {
+    margin-left: 20%;
+  }
+
+  .navbar .collapse a {
+    font-size: 14px;
   }
 }
 
@@ -352,8 +372,8 @@ h6,
 }
 
 .about-img-mobile {
-    display: none !important;
-  }
+  display: none !important;
+}
 
 .institucional .about-img {
   justify-content: center;
@@ -720,7 +740,7 @@ h6,
 }
 
 .footer .form-control {
-  border-color: #fff;
+      border: 1px solid white !important;
 }
 
 .footer .copyright {
