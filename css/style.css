@@ -2,9 +2,9 @@
 
 @font-face {
   font-family: "Cocomat";
-  src: url("../font/Cocomat_Pro.ttf") format("truetype");  
+  font-weight: 200;
+  src: url("../font/Cocomat_Pro.ttf") format("truetype");
 }
-
 
 html,
 body {
@@ -294,10 +294,14 @@ h6,
 
 /*** Section Title ***/
 .section-title {
-  color: var(--primary);
+  color: #3d5998;
   font-weight: 600;
   letter-spacing: 5px;
   text-transform: uppercase;
+}
+
+.page-blue {
+  color: #3d5998;
 }
 
 .products-container .products {
@@ -766,6 +770,7 @@ h6,
 p {
   color: #3d5998 !important;
   font-family: "Cocomat" !important;
+  font-weight: 600;
 }
 
 h3 {
@@ -803,7 +808,8 @@ h3 {
   transition: 0.15s ease-out;
   margin-bottom: 0 !important;
   color: white !important;
-  font-weight: bold;
+  font-weight: 500;
+  line-height: 0;
   padding-top: 1rem;
   padding-bottom: 1rem;
 }
@@ -830,6 +836,13 @@ h3 {
 
 .home-card-container p {
   cursor: default;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 900px) {
+  .home-card-container p {
+    font-size: 3rem;
+  }
 }
 
 .home-card-subcontainer {
