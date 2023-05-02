@@ -519,7 +519,7 @@ h6,
 }
 
 .service-item .service-text {
-  background: var(--light);
+  background: #3d5998d9;
   transition: 0.5s;
 }
 
@@ -548,7 +548,11 @@ h6,
 }
 
 .service-item:hover .btn {
-  width: 140px;
+  margin: auto;
+  width: 240px;
+  transition: all 0.5s ease 0s;
+  display: flex;
+  justify-content: center;
 }
 
 /*** Project ***/
@@ -855,6 +859,16 @@ h3 {
   justify-content: center;
 }
 
+/* Productos */
+
+.service-text img {
+  width: 40px;
+}
+
+.service-item.d-flex.position-relative.text-center.h-100:hover {
+  background: cadetblue;
+}
+
 .values .btn.btn-link::before {
   position: relative;
   content: "\f105";
@@ -862,6 +876,14 @@ h3 {
   font-weight: 900;
   color: var(--primary) !important;
   margin-right: 10px;
+}
+
+.service-text h3 {
+  color: white !important;
+}
+
+.invert-100 {
+  filter: invert(100);
 }
 
 @media screen and (max-width: 1183px) {
