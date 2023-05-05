@@ -3215,9 +3215,11 @@ fieldset:disabled .btn {
   color: #fff;
   text-align: left;
   list-style: none;
-  background-color: #0032572e;
+  background-color: #00325777;
   background-clip: padding-box;
-  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-left: 2px solid white;
+  border-bottom: 2px solid white;
+  border-right: 2px solid white;
   border-radius: 0px;
 }
 .dropdown-menu[data-bs-popper] {
@@ -3412,8 +3414,8 @@ fieldset:disabled .btn {
 }
 .dropdown-item:hover,
 .dropdown-item:focus {
-  color: #1e2125;
-  background-color: #e9ecef;
+  color: white;
+  font-weight: 500;
 }
 .dropdown-item.active,
 .dropdown-item:active {

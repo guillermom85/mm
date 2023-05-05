@@ -494,19 +494,23 @@ h6,
 }
 
 .trajectory-img {
+  display: flex;
+  justify-items: center;
   background-image: url(../img/fondos/trajectory.svg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top;
+  background-position-x: center;
+  background-position-y: 20%;
   position: relative;
   height: 100%;
-  min-height: 400px;
-  padding: 4rem;
-  font-size: 1.5rem;
+  font-size: 1.5rem;  
 }
 
 .trajectory-img p {
   color: white !important;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-right: 2rem;
 }
 
 .quality .quality-img {

@@ -11,7 +11,7 @@ $(document).ready(function () {
 
   let reactivosContent = document.getElementById("reactivosContent");
   let marcasContainer = document.getElementById("marcasContainer");
-  let tituloMarcas = document.getElementById("tituloMarcas")
+  let tituloMarcas = document.getElementById("tituloMarcas");
 
   categoriasReactivos.map((categoria) => {
     reactivosContent.innerHTML += `<button class="reactivosButton m-2 btn btn-primary nextBtn pull-right col-3 rounded-pill" type="button" id="${categoria.categoria}Button">${categoria.categoria}</button>`;
@@ -36,7 +36,7 @@ $(document).ready(function () {
     tituloMarcas.innerHTML = `Nuestras Marcas para esta categoría: ${currentCategory[0].categoria}`;
 
     currentCategory[0].logos.map((logo) => {
-      marcasContainer.innerHTML += `<div class="logo col-3"><img src="${logo}" alt="Logo" /></div>`;
+      marcasContainer.innerHTML += `<a href="#" class="logo col-3"><img src="${logo}" alt="Logo" /></a>`;
     });
   });
 
