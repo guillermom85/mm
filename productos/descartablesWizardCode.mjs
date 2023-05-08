@@ -1,4 +1,4 @@
-import { categoriasReactivos } from "../db/reactivos.js";
+import { descartables } from "../db/descartables.js";
 
 $(document).ready(function () {
   var navListItems = $("div.setup-panel div a"),
@@ -13,8 +13,14 @@ $(document).ready(function () {
   let marcasContainer = document.getElementById("marcasContainer");
   let tituloMarcas = document.getElementById("tituloMarcas");
 
-  categoriasReactivos.map((categoria) => {
-    reactivosContent.innerHTML += `<button class="reactivosButton m-2 btn btn-primary nextBtn pull-right col-3 rounded-pill" type="button" id="${categoria.categoria}Button">${categoria.categoria}</button>`;
+  descartables.forEach((descartable) => {
+    let items = "";
+    let buttonContent = `<button class="reactivosButton m-2 btn btn-primary nextBtn pull-right rounded-pill" type="button" id="${descartable.title}Button">${descartable.title}</button>`;
+
+    descartable.items.forEach((item) => {
+      items += `<p class="blueItems text-center ms-4 py-1 my-0">${item}</p>`;
+    });
+    reactivosContent.innerHTML += `<div class="d-flex flex-column justify-content-center col-3">${buttonContent}<div class="d-flex flex-column align-items-start">${items}</div></div>`;
   });
 
   let currentElement;
@@ -29,11 +35,11 @@ $(document).ready(function () {
     currentElement = currentElement.replace("Button", "");
     console.log(currentElement);
 
-    let currentCategory = categoriasReactivos.filter((element) => {
-      return element.categoria == currentElement;
+    let currentCategory = descartables.filter((element) => {
+      return element.title == currentElement;
     });
 
-    tituloMarcas.innerHTML = `Nuestras Marcas para esta categoría: ${currentCategory[0].categoria}`;
+    tituloMarcas.innerHTML = `Nuestras Marcas para esta categoría: ${currentCategory[0].title}`;
 
     currentCategory[0].logos.map((logo) => {
       marcasContainer.innerHTML += `<a href="#" class="logo col-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`;
