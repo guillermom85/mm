@@ -935,6 +935,68 @@ h3 {
   mix-blend-mode: multiply;
 }
 
+/* Productos */
+
+.producto .top {
+  background-image: url("../img/productos/desecadorDeVidrio.jpeg");
+  background-position: center;
+  border-radius: 10px 10px 0px 0px;
+  width: 100%;
+  height: 10rem;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.04);
+}
+
+.producto .bottom {
+  transition: all 0.5s;
+  background-color: #fff;
+  align-items: center;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  border: 1px solid #f7f1f1;
+}
+
+.producto .bottom:hover {
+  transition: all 0.5s;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.15);
+}
+
+.producto .bottom a {
+  background-color: var(--primary);
+  color: #fff;
+  transition: all 0.5s;
+  cursor: pointer;
+  padding: 8px 30px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: normal;
+  margin: 3px;
+  text-decoration: none;
+}
+
+.producto .bottom a:hover {
+  background-color: #3d5998;
+  transition: all 0.5s;  
+}
+
+.productosSection .nav-pills button {
+  transition: all 0.5s;  
+  background-color: #3d5998;
+  width: 100%;
+}
+
+.productosSection .nav-pills button h3 {
+  color: white !important;
+  font-size: 15px;
+}
+
+.productosSection .nav-pills button.active {
+  transition: all 0.5s;    
+}
+
+
+
 @media screen and (max-width: 1183px) {
   nav {
     margin-top: -1rem;
