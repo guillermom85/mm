@@ -36,7 +36,7 @@ $(document).ready(function () {
     tituloMarcas.innerHTML = `Nuestras Marcas para esta categoría: ${currentCategory[0].categoria}`;
 
     currentCategory[0].logos.map((logo) => {
-      marcasContainer.innerHTML += `<a href="#" class="logo col-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`;
+      marcasContainer.innerHTML += `<a href="../index.html?mensaje=Hola! Me gustaria consultar sobre la siguiente categoria de productos livianos:%20${currentCategory[0].categoria}#formContacto" class="logo col-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`;
     });
   });
 

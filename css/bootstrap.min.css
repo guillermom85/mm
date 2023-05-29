@@ -1821,7 +1821,7 @@ progress {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #fff;
+  color: var(--bs-primary);
   background-color: transparent;
   background-clip: padding-box;
   border: 1px solid #3d5998;
@@ -1841,7 +1841,7 @@ progress {
   cursor: pointer;
 }
 .form-control:focus {
-  color: #fff;
+  color: var(--bs-primary);
   background-color: #fff;
   border-color: #dbc6b2;
   outline: 0;
@@ -3636,7 +3636,7 @@ fieldset:disabled .btn {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #003257;
+  background-color: #3d5998;
 }
 .nav-fill > .nav-link,
 .nav-fill .nav-item {

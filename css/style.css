@@ -1,3 +1,5 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 /********** Template CSS **********/
 
 @font-face {
@@ -758,6 +760,7 @@ h6,
 }
 
 .footer .form-control {
+  color: var(--primary);
   border: 1px solid white !important;
 }
 
@@ -938,7 +941,6 @@ h3 {
 /* Productos */
 
 .producto .top {
-  background-image: url("../img/productos/desecadorDeVidrio.jpeg");
   background-position: center;
   border-radius: 10px 10px 0px 0px;
   width: 100%;
@@ -977,12 +979,13 @@ h3 {
 
 .producto .bottom a:hover {
   background-color: #3d5998;
-  transition: all 0.5s;  
+  transition: all 0.5s;
 }
 
 .productosSection .nav-pills button {
-  transition: all 0.5s;  
-  background-color: #3d5998;
+  transition: all 0.5s;
+  background-color: #003257;
+
   width: 100%;
 }
 
@@ -992,10 +995,158 @@ h3 {
 }
 
 .productosSection .nav-pills button.active {
-  transition: all 0.5s;    
+  transition: all 0.5s;
 }
 
+.productoContainer {
+  background: #ffffff !important;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.15);
+  padding: 1rem;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70%;
+  margin: auto;
+}
 
+.productoContainer h2 {
+  font-weight: 300 !important;
+  font-size: 25px;
+  color: var(--primary);
+}
+
+.productoContainer h3 {
+  font-weight: 700 !important;
+  font-size: 16px;
+  color: var(--primary) !important;
+}
+
+.productoContainer p {
+  color: var(--primary);
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.productoEspecificaciones h2 {
+  font-weight: 300 !important;
+  font-size: 25px;
+  color: #003257;
+}
+
+.productoEspecificaciones h3 {
+  font-weight: 500 !important;
+  font-size: 16px;
+  color: #3d5998;
+}
+
+.productoEspecificaciones p {
+  font-weight: 200;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif !important;
+}
+
+.productoForm {
+  gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.containerProductoForm input {
+  background-color: transparent;
+  color: #003257;
+}
+
+.containerProductoForm input:focus {
+  background-color: transparent;
+  color: #003257;
+}
+.form-control:focus {
+  color: var(--primary);
+  border-color: #003257aa;
+  box-shadow: 0 0 0 0.25rem #003257aa !important;
+}
+
+/* Calidad */
+
+.calidad .items::before {
+  position: relative;
+  content: "\f00c";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 600;
+  color: var(--primary) !important;
+  margin-right: 10px;
+}
+
+.calidad .items {
+  width: 80%;
+}
+
+/* Servicio tecnico */
+
+.servicioTecnicoHero {
+  background-image: url("../img/servicioTecnicoBg.jpg");
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.servicioTecnicoHero h2 {
+  font-weight: 100;
+}
+
+.borderBottomWhite {
+  border-bottom: solid 2px #eeeeee !important;
+}
+
+/* Search bar */
+
+body {
+  background: #f2f2f2;
+  font-family: "Open Sans", sans-serif;
+}
+
+.search {
+  width: 50%;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 2px solid #003257;
+  border-right: none;
+
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #003257;
+}
+
+.searchTerm:focus {
+  color: #003257;
+}
+
+.searchButton {
+  width: 40px;
+  border: 1px solid #003257;
+  background: #003257;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  background-color: #3d5998d9 !important;
+}
 
 @media screen and (max-width: 1183px) {
   nav {

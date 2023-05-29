@@ -198,7 +198,7 @@ hover	#024474
               <a href="../institucional.html" class="dropdown-item"
                 >La empresa</a
               >
-              <a href="../historia.html" class="dropdown-item">Historia</a>             
+              <a href="../historia.html" class="dropdown-item">Historia</a>
               <a href="../calidad.html" class="dropdown-item">Calidad</a>
             </div>
           </div>
@@ -208,7 +208,9 @@ hover	#024474
           >
             &nbsp;
           </div>
-          <a href="../servicioTecnico.html" class="nav-item nav-link flex-auto text-center"
+          <a
+            href="../servicioTecnico.html"
+            class="nav-item nav-link flex-auto text-center"
             >Servicio Técnico</a
           >
           <div
@@ -228,7 +230,9 @@ hover	#024474
           &nbsp;
         </div>
         <div class="contactenos">
-          <a href="../index.html#formContacto"><img src="./img/mail.png" alt="" /></a>
+          <a href="../index.html#formContacto"
+            ><img src="./img/mail.png" alt=""
+          /></a>
           <a href="http://"><img src="./img/instagram.png" alt="" /></a>
           <a href="http://"><img src="./img/facebook.png" alt="" /></a>
         </div>
@@ -236,91 +240,93 @@ hover	#024474
     </nav>
     <!-- Navbar End -->
 
-    <!-- Wizard Start -->
+    <!-- Producto Start -->
 
-    <div class="container m-5">
-      <!-- Steps -->
-      <div class="stepwizard">
-        <div class="stepwizard-row setup-panel">
-          <div class="stepwizard-step col-xs-3">
-            <a href="#step-1" type="button" class="btn btn-success btn-circle"
-              >1</a
-            >
-            <p><small>Categoria</small></p>
+    <!-- Producto Card -->
+    <div class="d-flex align-items-center justify-content-center">
+      <div
+        class="productoContainer row align-items-start justify-content-start mx-5 my-3 p-4"
+      ></div>
+    </div>
+    <!-- Producto Especificaciones -->
+    <div class="my-5 mx-5 productoEspecificaciones"></div>
+    <div class="mx-5 containerProductoForm">
+      <!-- Titulo -->
+      <h3 class="">Solicite una cotización</h3>
+      <!-- Linea -->
+      <div
+        class=""
+        style="width: 100%; height: 2px; background-color: var(--primary)"
+      >
+        &nbsp;
+      </div>
+      <!-- Form -->
+      <div class="col-12 wow fadeInUp pt-5" data-wow-delay="0.5s">
+        <div class="row g-3">
+          <div class="col-12 col-sm-6">
+            <input
+              id="inputNombre"
+              type="text"
+              class="form-control"
+              placeholder="Nombre completo"
+              style="height: 55px"
+            />
           </div>
-          <div class="stepwizard-step col-xs-3">
-            <a
-              href="#step-2"
-              type="button"
-              class="btn btn-default btn-circle"
-              disabled="disabled"
-              >2</a
-            >
-            <p><small>Marcas</small></p>
+          <div class="col-12 col-sm-6">
+            <input
+              id="inputCorreo"
+              type="email"
+              class="form-control"
+              placeholder="Correo electrónico"
+              style="height: 55px"
+            />
+          </div>
+          <div class="col-6 col-sm-6">
+            <input
+              id="inputTelefono"
+              type="text"
+              class="form-control"
+              placeholder="Teléfono"
+              style="height: 55px"
+            />
+          </div>
+          <div class="col-6 col-sm-6">
+            <input
+              id="inputLocalidad"
+              type="text"
+              class="form-control"
+              placeholder="Localidad"
+              style="height: 55px"
+            />
+          </div>
+          <div class="col-12">
+            <input
+              id="inputProvincia"
+              type="text"
+              class="form-control"
+              placeholder="Provincia"
+              style="height: 55px"
+            />
+          </div>
+          <div class="col-12 col-sm-6"></div>
+          <div class="col-12">
+            <textarea
+              id="inputMensaje"
+              class="form-control"
+              rows="5"
+              placeholder="Mensaje"
+            ></textarea>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary w-100 py-3" type="submit">
+              Enviar
+            </button>
           </div>
         </div>
       </div>
-
-      <!-- Contenido -->
-      <form role="form">
-        <!-- Reactivos -->
-        <div class="panel panel-primary setup-content" id="step-1">
-          <div class="d-flex flex-column panel-heading">
-            <h3 class="panel-title">Descartables</h3>
-            <p>
-              Conozca las marcas que comercializamos para las diferentes
-              categorías, haciendo click sobre cada una de ellas.
-            </p>
-          </div>
-          <div
-            class="panel-body"
-            id="reactivosContainer"                      
-          >
-            <!-- Reactivos content -->
-            <div
-              id="reactivosContent"
-              class="container row justify-content-center g-2 mt-3"    
-              style="align-items: flex-start !important;"          
-            ></div>
-          </div>
-        </div>
-
-        <!-- Marcas -->
-        <div class="panel panel-primary setup-content" id="step-2">
-          <div class="panel-heading">
-            <h3 class="panel-title" id="tituloMarcas">
-              Nuestras Marcas para esta categoría
-            </h3>
-            <div class="">
-              <div class="stepwizard-row backArrow setup-panel">
-                <div class="stepwizard-step col-xs-3">
-                  <a
-                    href="#step-1"
-                    type="button"
-                    class="btn btn-circle btn-default d-flex justify-content-center align-items-center"
-                  >
-                    <img
-                      style="width: 20px; filter: invert(100)"
-                      src="../img/back.png"
-                      alt="Back Arrow"
-                    />
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Marcas content -->
-          <div
-            class="panel-body container row justify-content-center align-items-center g-2 mt-3"
-            id="marcasContainer"
-          >
-            <p>No hay marcas seleccionadas para esta categoría</p>
-          </div>
-        </div>
-      </form>
     </div>
 
-    <!-- Wizard End-->
+    <!-- Producto End -->
 
     <!-- Footer Start -->
     <div
@@ -378,13 +384,15 @@ hover	#024474
           <div class="col-lg-4 col-md-6">
             <h3 class="text-light mb-4">Institucional</h3>
             <a class="btn btn-link" href="../institucional.html">La Empresa</a>
-            <a class="btn btn-link" href="../historia.html">Historia</a>            
+            <a class="btn btn-link" href="../historia.html">Historia</a>
             <a class="btn btn-link" href="../calidad.html">Calidad</a>
           </div>
           <div class="col-lg-4 col-md-6">
             <h3 class="text-light mb-4">Accesos rápidos</h3>
             <a class="btn btn-link" href="../index.html">Home</a>
-            <a class="btn btn-link" href="../servicioTecnico.html">Servicio Técnico</a>
+            <a class="btn btn-link" href="../servicioTecnico.html"
+              >Servicio Técnico</a
+            >
             <a class="btn btn-link" href="">Clientes</a>
             <a class="btn btn-link" href="">Contactenos</a>
             <a class="btn btn-link" href="">Términos y condiciones</a>
@@ -428,7 +436,9 @@ hover	#024474
 
     <!-- Template Javascript -->
     <script src="../js/main.js"></script>
+    <!-- Javascript native code -->
+    <script src="../js/cotizacion.mjs"></script>
 
-    <script type="module" src="./descartablesWizardCode.mjs"></script>
+    <script type="module" src="./internaProductos.mjs"></script>
   </body>
 </html>
