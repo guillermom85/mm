@@ -34,10 +34,10 @@ $(document).ready(function () {
   const urlParams = new URLSearchParams(queryString);
 
   //variables
-  let productoActual = urlParams.get("producto");
+  let productoActual = urlParams.get("producto").toUpperCase();
   if (productoActual?.length > 0) {    
     productos.map((producto) => {
-      let auxProducto = producto.title;
+      let auxProducto = producto.title.toUpperCase();
 
       if (auxProducto.includes(productoActual)) {
         temporalProductos.push(producto);
@@ -67,13 +67,13 @@ $(document).ready(function () {
 
   //Evento click de filtro
   filterButton.click((e) => {
-    selectedButton = `${e.target.innerText}`;
+    selectedButton = `${e.target.innerText.toUpperCase()}`;
     let auxProducts = productos.filter((producto) => {
-      if (producto.categoria == selectedButton) {
+      if (producto.categoria.toUpperCase() == selectedButton.toUpperCase()) {
         return producto;
       }
     });
-    if (selectedButton == "Todos") {
+    if (selectedButton.toUpperCase() == "TODOS") {
       let htmlToAdd = "";
       productos.map((producto) => {
         htmlToAdd += `<div class="col-4 d-flex flex-column producto" id="producto-${producto.id}" >

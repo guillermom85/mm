@@ -1098,7 +1098,7 @@ h3 {
 }
 
 .borderBottomWhite {
-  border-bottom: solid 2px #eeeeee !important;
+  border-bottom: solid 1px #eeeeee !important;
 }
 
 /* Search bar */
@@ -1146,6 +1146,20 @@ body {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   background-color: #3d5998d9 !important;
+}
+
+.opacityFooter {
+  opacity: 0.4;
+}
+
+.opacityFooter a {
+  font-style: none;
+}
+
+/* Reactivos */
+
+.reactivosButton {
+  height: 68px;
 }
 
 @media screen and (max-width: 1183px) {
