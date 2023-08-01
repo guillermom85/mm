@@ -34,12 +34,12 @@ $(document).ready(function () {
   const urlParams = new URLSearchParams(queryString);
 
   //variables
-  let productoActual = urlParams.get("producto").toUpperCase();
+  let productoActual = urlParams.get("producto");
   if (productoActual?.length > 0) {    
     productos.map((producto) => {
       let auxProducto = producto.title.toUpperCase();
 
-      if (auxProducto.includes(productoActual)) {
+      if (auxProducto.includes(productoActual.toUpperCase())) {
         temporalProductos.push(producto);
       }
     });    
