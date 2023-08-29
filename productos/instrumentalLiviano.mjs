@@ -50,7 +50,7 @@ $(document).ready(function () {
 
   //renderizado de productos
   temporalProductos.map((producto) => {
-    productsContainer[0].innerHTML += `<div class="col-4 d-flex flex-column producto" id="producto-${producto.id}" >
+    productsContainer[0].innerHTML += `<div class="col-md-4 d-flex flex-column producto" id="producto-${producto.id}" >
           <div class="top" style="background-image: url('${producto.imgUrl}')">&nbsp;</div>
           <div class="bottom p-3">
             <p class="my-1 py-1">${producto.marca}</p>
@@ -76,7 +76,7 @@ $(document).ready(function () {
     if (selectedButton.toUpperCase() == "TODOS") {
       let htmlToAdd = "";
       productos.map((producto) => {
-        htmlToAdd += `<div class="col-4 d-flex flex-column producto" id="producto-${producto.id}" >
+        htmlToAdd += `<div class="col-md-4 d-flex flex-column producto" id="producto-${producto.id}" >
           <div class="top" style="background-image: url('${producto.imgUrl}')">&nbsp;</div>
           <div class="bottom p-3">
             <p class="my-1 py-1">${producto.marca}</p>
@@ -95,7 +95,7 @@ $(document).ready(function () {
     } else {
       let htmlToAdd = "";
       auxProducts.map((producto) => {
-        htmlToAdd += `<div class="col-4 d-flex flex-column producto" id="producto-${producto.id}" >
+        htmlToAdd += `<div class="col-md-4 d-flex flex-column producto" id="producto-${producto.id}" >
           <div class="top" style="background-image: url('${producto.imgUrl}')">&nbsp;</div>
           <div class="bottom p-3">
             <p class="my-1 py-1">${producto.marca}</p>

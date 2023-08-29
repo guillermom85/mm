@@ -1162,6 +1162,16 @@ body {
   height: 68px;
 }
 
+/* Generals */
+
+.hiddenDesktop {
+  display: none;
+}
+
+.hiddenMobile {
+  display: block;
+}
+
 @media screen and (max-width: 1183px) {
   nav {
     margin-top: -1rem;
@@ -1219,6 +1229,33 @@ body {
     font-size: x-large;
     transition: 0.15s ease-in;
     cursor: default;
+  }
+
+  .productsButton {
+    width: 45%;
+  }
+
+  /* Generals */
+
+  .hiddenDesktop {
+    display: block;
+  }
+
+  .hiddenMobile {
+    display: none;
+  }
+
+  .trajectoryText {
+    text-align: center;
+    font-size: 26px;
+  }
+
+  .trajectory-content {
+    padding-top: 0 !important;
+  }
+
+  .search {
+    width: 90%;
   }
 
   /* Cards Container */

@@ -14,7 +14,7 @@ $(document).ready(function () {
   let tituloMarcas = document.getElementById("tituloMarcas");
 
   categoriasReactivos.map((categoria) => {
-    reactivosContent.innerHTML += `<button class="reactivosButton m-2 btn btn-primary nextBtn pull-right col-3 rounded-pill" type="button" id="${categoria.categoria}Button">${categoria.categoria}</button>`;
+    reactivosContent.innerHTML += `<button class="reactivosButton m-2 btn btn-primary nextBtn pull-right col-md-3 rounded-pill" type="button" id="${categoria.categoria}Button">${categoria.categoria}</button>`;
   });
 
   let currentElement;

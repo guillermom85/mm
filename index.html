@@ -111,9 +111,9 @@ hover	#024474
                 </div>
                  <div class="mx-2" style="width: 1px; height: max-content; background-color: white;">&nbsp;</div>
                 <div class="nav-item dropdown flex-auto">
-                    <a href="#" class="nav-link dropdown-toggle flex-auto text-center" data-bs-toggle="dropdown">Institucional</a>
+                    <a href="./institucional.html" class="nav-link dropdown-toggle flex-auto text-center" data-bs-toggle="dropdown">Institucional</a>
                     <div class="dropdown-menu m-0">
-                        <a href="institucional.html" class="dropdown-item">La empresa</a>
+                        <a href="./institucional.html" class="dropdown-item">La empresa</a>
                         <a href="./historia.html" class="dropdown-item">Historia</a>                        
                         <a href="./calidad.html" class="dropdown-item">Calidad</a>
                     </div>
@@ -193,7 +193,7 @@ hover	#024474
     <!-- Quality Bar Replace -->
     <div class="d-flex justify-content-center align-items-center mb-5" style="background-color: #3d5998d9; margin-top: -6px;">
         <a href="./productos.html" style="width: 33% !important; background-color: #f2f2f2; border-radius: 15px; color:#3d5998" class="d-flex flex-row justify-content-center align-items-center btn btn-primary w-100 py-3 my-3" type="submit">
-            <p style="font-weight: 500;" class="my-0 py-0 me-3">Ver productos</p> <img src="./img/handDown.png" class=" my-0 py-0" alt="Hand Down" style="height: 20px; transform: rotate(270deg);">
+            <p style="font-weight: 500;" class="my-0 py-0 me-3 productsButton">Ver productos</p> <img src="./img/handDown.png" class=" my-0 py-0" alt="Hand Down" style="height: 20px; transform: rotate(270deg);">
         </a>
     </div>
     <!-- Quality Bar Replace End-->
@@ -227,6 +227,12 @@ hover	#024474
     <div class="container-xxl py-5 about-content">
         <div class="container">
             <div class="row">
+                <div class="col-lg-6 wow fadeIn p-0 hiddenDesktop" data-wow-delay="0.1s">
+                    <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center;" class="about-img">
+                        <p style="font-size: 3rem; color: white !important;">Quiénes <span style="font-weight: 100;">somos?</span></p>
+                        <div style="height: 4px; width: 10%; background-color: white;">&nbsp;</div>
+                    </div>
+                </div>
 
                 <div class="col-lg-6 wow fadeIn about-text" data-wow-delay="0.5s">
                     <p>
@@ -244,7 +250,7 @@ hover	#024474
                     </p>
 
                 </div>
-                <div class="col-lg-6 wow fadeIn p-0" data-wow-delay="0.1s">
+                <div class="col-lg-6 wow fadeIn p-0 hiddenMobile" data-wow-delay="0.1s">
                     <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center;" class="about-img">
                         <p style="font-size: 3rem; color: white !important;">Quiénes <span style="font-weight: 100;">somos?</span></p>
                         <div style="height: 4px; width: 10%; background-color: white;">&nbsp;</div>
@@ -291,7 +297,7 @@ hover	#024474
     <div id="contact" class="py-5 trajectory-content">
 
         <div class="row " style="">
-            <p style="font-weight: 100; font-size: 3rem; text-align: right">39 años de trayectoria profesional</p style="font-weight: 100; font-size: 2rem; text-align: right; padding-right: 1rem;">
+            <p class="trajectoryText" style="font-weight: 100; font-size: 3rem; text-align: right">39 años de trayectoria profesional</p style="font-weight: 100; font-size: 2rem; text-align: right; padding-right: 1rem;">
         </div>
         <div class="row trajectory-img">
 
@@ -866,7 +872,7 @@ hover	#024474
                     <a class="btn btn-link" href="index.html">Home</a>
                     <a class="btn btn-link" href="./servicioTecnico.html">Servicio Técnico</a>
                     <a class="btn btn-link" href="">Clientes</a>
-                    <a class="btn btn-link" href="">Contactenos</a>
+                    <a class="btn btn-link" href="./index.html#formContacto">Contactenos</a>
                     <a class="btn btn-link" href="">Términos y condiciones</a>
                 </div>                
             </div>
