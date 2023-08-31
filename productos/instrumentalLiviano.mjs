@@ -35,23 +35,22 @@ $(document).ready(function () {
 
   //variables
   let productoActual = urlParams.get("producto");
-  if (productoActual?.length > 0) {    
+  if (productoActual?.length > 0) {
     productos.map((producto) => {
       let auxProducto = producto.title.toUpperCase();
 
       if (auxProducto.includes(productoActual.toUpperCase())) {
         temporalProductos.push(producto);
       }
-    });    
-  }
-  else {
-    temporalProductos = productos
+    });
+  } else {
+    temporalProductos = productos;
   }
 
   //renderizado de productos
   temporalProductos.map((producto) => {
     productsContainer[0].innerHTML += `<div class="col-md-4 d-flex flex-column producto" id="producto-${producto.id}" >
-          <div class="top" style="background-image: url('${producto.imgUrl}')">&nbsp;</div>
+          <div class="top" style="background-repeat: no-repeat; background-image: url('${producto.imgUrl}')">&nbsp;</div>
           <div class="bottom p-3">
             <p class="my-1 py-1">${producto.marca}</p>
             <p class="fw-normal my-2" style="font-size: 26px">

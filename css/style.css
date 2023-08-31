@@ -8,6 +8,10 @@
   src: url("../font/Cocomat_Pro.ttf") format("truetype");
 }
 
+a:visited {
+  color: white;
+}
+
 html,
 body {
   max-width: 100%;
@@ -1149,7 +1153,7 @@ body {
 }
 
 .opacityFooter {
-  opacity: 0.2;
+  opacity: 0.05;
 }
 
 .opacityFooter a {
@@ -1208,7 +1212,18 @@ body {
   }
 }
 
+.productsButton {
+  width: 45% !important;
+}
+
 @media screen and (max-width: 768px) {
+  .productoContainer {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+  }
+
   /* Quality bar */
 
   .quality-bar {
@@ -1232,7 +1247,7 @@ body {
   }
 
   .productsButton {
-    width: 45%;
+    width: 45% !important;
   }
 
   /* Generals */
@@ -1246,8 +1261,8 @@ body {
   }
 
   .trajectoryText {
-    text-align: center;
-    font-size: 26px;
+    text-align: center !important;
+    font-size: 26px !important;
   }
 
   .trajectory-content {

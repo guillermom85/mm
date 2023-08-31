@@ -16,12 +16,7 @@ $(document).ready(function () {
         </div>
         <div class="d-flex flex-column col-7 mt-5">
           <h2>${producto.title}</h2>
-          <h3>${producto.categoria}</h3>
-          <img
-            style="width: 10rem"
-            src="${producto.manufacturerLogoUrl}"
-            alt="Logo"
-          />
+          <h3>${producto.categoria}</h3>          
         </div>`;
   containerEspecificaciones[0].innerHTML += ` <h2>Especificaciones</h2>
       <h3 class="mt-3">Caracteristicas:</h3>
