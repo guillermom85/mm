@@ -1,6 +1,6 @@
 export const descartables = [
   {
-    title: "Material de plastico",
+    title: "Material de Plastico",
     items: [
       "Agujas",
       "Bolsas",
