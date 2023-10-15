@@ -23,7 +23,7 @@ $(document).ready(function () {
 
     currentCategory[0].logos.map((logo) => {
       $(".marcasContainer").append(
-        `<a href="#" class="logo col-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+        `<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
       );
     });
   });

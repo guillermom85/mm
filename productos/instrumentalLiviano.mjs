@@ -2,7 +2,7 @@ import { categorias } from "../db/categoriasProductos.js";
 
 function generateCategory(data) {
 	return `
-    <div class="d-flex flex-row align-items-center justify-content-start col-4 mt-4">
+    <div class="d-flex flex-row align-items-center justify-content-start col-12 col-md-4 mt-4">
       <img src="${data.imgUrl}" alt="" style="width: 40px; height: 40px; background-color: ${data.hexColor};">
       <p class="ms-2 categoryTitle pb-0 mb-0">${data.title}</p>
     </div>
@@ -35,7 +35,7 @@ function replaceURLParameter(url, paramName, newValue) {
 
 function generateProduct(data) {
 	return `
-  <div class="col-3">
+  <div class="col-12 col-md-3">
     <div class="d-flex flex-row containerProducto p-2 m-2">
       <img src="${data.imgUrl}" alt="" />
       <div class="d-flex flex-column detailsContainer">
@@ -60,8 +60,9 @@ $(document).ready(function () {
 	//Chequea si existe una categoria prefiltrada
 	if (searchParams.get("category")?.length > 0) {
 		let currentCategory = categorias.filter(
-			(category) => (category.title == searchParams.get("category"))
+			(category) => category.title == searchParams.get("category")
 		);
+
 		parent.prepend(`<div class="search mx-auto mt-3">
     <input
       type="text"
@@ -81,6 +82,10 @@ $(document).ready(function () {
   />
   <p class="ms-3 my-0">${currentCategory[0].title}</p>
 </div>`);
+		parent.prepend(`<a class="d-flex flex-row align-items-center ms-5 mt-5" href="./instrumentalLiviano.html">
+<img style="width: 20px; height: 20px;" src="../img/backArrow.png" alt="Back arrow" class="me-2" />
+<p class="py-0 my-0" style="font-weight: 500;">Atrás</p>
+</a>`);
 
 		parent.append(``);
 
@@ -117,7 +122,7 @@ $(document).ready(function () {
 			var html = generateCategory(data); // Create HTML code for the current data
 			container.append(html); // Append it to the container
 		});
-    parent.prepend(`<div
+		parent.prepend(`<div
     class="d-flex flex-row productsMainTitle align-items-center justify-content-center my-4 mx-5 pb-4"
   >
     <img
@@ -126,7 +131,7 @@ $(document).ready(function () {
       alt=""
     />
     <p class="ms-3 my-0">Productos</p>
-  </div>`)
+  </div>`);
 	}
 
 	$(".categoryTitle").click((event) => {
