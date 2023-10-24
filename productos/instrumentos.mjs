@@ -36,8 +36,8 @@ function replaceURLParameter(url, paramName, newValue) {
 function generateProduct(data) {
 	return `
   <div class="col-12 col-md-3">
-    <div class="d-flex flex-row containerProducto p-2 m-2">
-      <img src="${data.imgUrl}" alt="" />
+    <div class="d-flex flex-row containerProducto p-2 m-2" style="min-height: 220px">
+      <img style="width: 77px; height: 177px" src="${data.imgUrl}" alt="" />
       <div class="d-flex flex-column detailsContainer p-2">
         <p class="productName my-0 pe-3">${data.title}</p>
         <p class="productBrand my-0">${data.brand}</p>
@@ -82,7 +82,7 @@ $(document).ready(function () {
   />
   <p class="ms-3 my-0">${currentCategory[0].title}</p>
 </div>`);
-		parent.prepend(`<a class="d-flex flex-row align-items-center ms-5 mt-5" href="./instrumentalLiviano.html">
+		parent.prepend(`<a class="d-flex flex-row align-items-center ms-5 mt-5" href="./instrumentos.html">
 <img style="width: 20px; height: 20px;" src="../img/backArrow.png" alt="Back arrow" class="me-2" />
 <p class="py-0 my-0" style="font-weight: 500;">Atrás</p>
 </a>`);

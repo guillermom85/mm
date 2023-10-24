@@ -1148,11 +1148,11 @@ h3 {
 
 .servicioTecnicoHero {
 	background-image: url(../img/servicio-tecnico.png);
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-position-y: -60px;
+	background-size: cover;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-position-y: -60px;
 	padding-top: 5rem !important;
 	padding-bottom: 5rem !important;
 }
@@ -1354,6 +1354,12 @@ body {
 	.home-card-subcontainer-devided {
 		display: grid;
 		grid-template-columns: 1fr;
+	}
+
+	.mobileStyles {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
 	}
 }
 
