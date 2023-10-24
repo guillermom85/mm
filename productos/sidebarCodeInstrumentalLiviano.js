@@ -1,4 +1,4 @@
-import { descartables } from "../db/descartables.js";
+import { categoriasInstrumentalLiviano } from "../db/instrumentalLiviano.js";
 
 $(document).ready(function () {
 	$(".push_menu").click(function () {
@@ -7,22 +7,20 @@ $(document).ready(function () {
 
 	//Carga primer elemento
 	let primerElemento = $(".menu li a").first();
-  primerElemento.addClass("active")
-  $(".contentContainer .title").html(`${primerElemento.text()}`);
-  let firstElement = primerElemento.text().trim();
-  let firstCategory = descartables.filter((element) => {
-    return element.title == firstElement;
-  });
-  $(".marcasContainer").html("");
-  firstCategory[0].logos.map((logo) => {
-    $(".marcasContainer").append(
-      `<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
-    );
-  })
+	primerElemento.addClass("active");
+	$(".contentContainer .title").html(`${primerElemento.text()}`);
+	let firstElement = primerElemento.text().trim();
+	let firstCategory = categoriasInstrumentalLiviano.filter((element) => {
+		return element.categoria == firstElement;
+	});
+	$(".marcasContainer").html("");
+	firstCategory[0].logos.map((logo) => {
+		$(".marcasContainer").append(
+			`<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+		);
+	});
 
 	$(".menu li a").click(function (e) {
-		e.preventDefault(); // Prevent default behavior (following the link)
-
 		// Remove active class from all menu items
 		$(".menu li a").removeClass("active");
 
@@ -32,8 +30,8 @@ $(document).ready(function () {
 		$(".contentContainer .title").html(`${$(this).text()}`);
 
 		let currentElement = $(this).text().trim();
-		let currentCategory = descartables.filter((element) => {
-			return element.title == currentElement;
+		let currentCategory = categoriasInstrumentalLiviano.filter((element) => {
+			return element.categoria == currentElement;
 		});
 
 		$(".marcasContainer").html("");

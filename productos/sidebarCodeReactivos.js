@@ -1,30 +1,45 @@
 import { categoriasReactivos } from "../db/reactivos.js";
 
 $(document).ready(function () {
-  $(".push_menu").click(function () {
-    $(".wrapper").toggleClass("active");
-  });
-  $(".menu li a").click(function (e) {
+	$(".push_menu").click(function () {
+		$(".wrapper").toggleClass("active");
+	});
 
-    // Remove active class from all menu items
-    $(".menu li a").removeClass("active");
+	//Carga primer elemento
+	let primerElemento = $(".menu li a").first();
+	primerElemento.addClass("active");
+	$(".contentContainer .title").html(`${primerElemento.text()}`);
+	let firstElement = primerElemento.text().trim();
+	let firstCategory = categoriasReactivos.filter((element) => {
+		return element.categoria == firstElement;
+	});
+	$(".marcasContainer").html("");
+	firstCategory[0].logos.map((logo) => {
+		$(".marcasContainer").append(
+			`<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+		);
+	});
 
-    // Add active class to the clicked menu item
-    $(this).addClass("active");
+	$(".menu li a").click(function (e) {
+		// Remove active class from all menu items
+		$(".menu li a").removeClass("active");
 
-    $(".contentContainer .title").html(`${$(this).text()}`);
+		// Add active class to the clicked menu item
+		$(this).addClass("active");
 
-    let currentElement = $(this).text().trim();
-    let currentCategory = categoriasReactivos.filter((element) => {
-      return element.categoria == currentElement;
-    });
+		$(".contentContainer .title").html(`${$(this).text()}`);
 
-    $(".marcasContainer").html("");
+		let currentElement = $(this).text().trim();
+		let currentCategory = categoriasReactivos.filter((element) => {
+			return element.categoria == currentElement;
+		});
 
-    currentCategory[0].logos.map((logo) => {
-      $(".marcasContainer").append(
-        `<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
-      );
-    });
-  });
+		$(".marcasContainer").html("");
+
+		currentCategory[0].logos.map((logo) => {
+			$(".marcasContainer").append(
+				`<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+			);
+		});
+	});
 });
