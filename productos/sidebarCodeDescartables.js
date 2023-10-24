@@ -7,18 +7,18 @@ $(document).ready(function () {
 
 	//Carga primer elemento
 	let primerElemento = $(".menu li a").first();
-  primerElemento.addClass("active")
-  $(".contentContainer .title").html(`${primerElemento.text()}`);
-  let firstElement = primerElemento.text().trim();
-  let firstCategory = descartables.filter((element) => {
-    return element.title == firstElement;
-  });
-  $(".marcasContainer").html("");
-  firstCategory[0].logos.map((logo) => {
-    $(".marcasContainer").append(
-      `<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
-    );
-  })
+	primerElemento.addClass("active")
+	$(".contentContainer .title").html(`${primerElemento.text()}`);
+	let firstElement = primerElemento.text().trim();
+	let firstCategory = descartables.filter((element) => {
+		return element.title == firstElement;
+	});
+	$(".marcasContainer").html("");
+	firstCategory[0].logos.map((logo) => {
+		$(".marcasContainer").append(
+			`<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+		);
+	})
 
 	$(".menu li a").click(function (e) {
 		e.preventDefault(); // Prevent default behavior (following the link)
@@ -39,9 +39,9 @@ $(document).ready(function () {
 		$(".marcasContainer").html("");
 
 		currentCategory[0].logos.map((logo) => {
-      let brand = filePath.split('/').pop().split('.')[0];
-      let message = `Me gustaría obtener información de '${currentElement}', específicamente de la marca '${brand}'`
-      
+			let brand = logo.split('/').pop().split('.')[0];
+			let message = `Me gustaría obtener información de '${currentElement}', específicamente de la marca '${brand}'`
+
 			$(".marcasContainer").append(
 				`<a href="javascript:enviarContact('${message}');" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
 			);
