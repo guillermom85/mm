@@ -38,7 +38,7 @@ function generateProduct(data) {
   <div class="col-12 col-md-3">
     <div class="d-flex flex-row containerProducto p-2 m-2">
       <img src="${data.imgUrl}" alt="" />
-      <div class="d-flex flex-column detailsContainer">
+      <div class="d-flex flex-column detailsContainer p-2">
         <p class="productName my-0 pe-3">${data.title}</p>
         <p class="productBrand my-0">${data.brand}</p>
         <p class="productCategory my-0">${data.category}</p>
