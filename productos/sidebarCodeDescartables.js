@@ -23,8 +23,10 @@ $(document).ready(function () {
     $(".marcasContainer").html("");
 
     currentCategory[0].logos.map((logo) => {
+      let brand = filePath.split('/').pop().split('.')[0];
+      let message = `Me gustaría obtener información de '${currentElement}', específicamente de la marca '${brand}'`
       $(".marcasContainer").append(
-        `<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+        `<a href="javascript:enviarContact('');" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
       );
     });
   });
