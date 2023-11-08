@@ -23,8 +23,10 @@ $(document).ready(function () {
 		);
 	})
 	firstCategory[0].items.map((item) => {
+		let message = `Me gustaría obtener información de el producto descartables: ${item}`
+
 		$(".prenav").append(
-			`<li class="col-md-6 col-12">${item}</li>`
+			`<li onclick="enviarContact('${message}');" class="col-md-6 col-12" style="cursor:pointer;">${item}</li>`
 		);
 	});
 
@@ -56,8 +58,10 @@ $(document).ready(function () {
 			);
 		});
 		currentCategory[0].items.map((item) => {
+			let message = `Me gustaría obtener información de el producto descartables: ${item}`
+
 			$(".prenav").append(
-				`<li class="col-md-6 col-12">${item}</li>`
+				`<li onclick="enviarContact('${message}');" class="col-md-6 col-12" style="cursor:pointer;">${item}</li>`
 			);
 		});
 	});
