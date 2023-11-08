@@ -1,7 +1,7 @@
 export const descartables = [
 	{
 		title: "Preanalítica",
-		items: ["Sistema Vacutainer, Microtainer, etc "],
+		items: ["Sistema Vacutainer", "Microtainer"],
 		logos: [
 			"../img/representadas/bd.png", 
 			"../img/representadas/tecnon.png",
