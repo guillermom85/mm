@@ -1,4 +1,4 @@
-import { categoriasReactivos } from "../db/reactivos.js";
+/* import { categoriasReactivos } from "../db/reactivos.js";
 
 $(document).ready(function () {
   var navListItems = $("div.setup-panel div a"),
@@ -79,3 +79,4 @@ $(document).ready(function () {
 
   //Content
 });
+ */
