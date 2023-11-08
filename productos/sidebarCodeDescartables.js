@@ -23,7 +23,7 @@ $(document).ready(function () {
 		);
 	})
 	firstCategory[0].items.map((item) => {
-		let message = `Me gustaría obtener información de el producto descartables: ${item}`
+		let message = `Me gustaría obtener información del producto descartables: ${item}`
 
 		$(".prenav").append(
 			`<li onclick="enviarContact('${message}');" class="col-md-6 col-12" style="cursor:pointer;">${item}</li>`
@@ -58,7 +58,7 @@ $(document).ready(function () {
 			);
 		});
 		currentCategory[0].items.map((item) => {
-			let message = `Me gustaría obtener información de el producto descartables: ${item}`
+			let message = `Me gustaría obtener información del producto descartables: ${item}`
 
 			$(".prenav").append(
 				`<li onclick="enviarContact('${message}');" class="col-md-6 col-12" style="cursor:pointer;">${item}</li>`
