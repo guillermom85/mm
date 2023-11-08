@@ -15,8 +15,11 @@ $(document).ready(function () {
 	});
 	$(".marcasContainer").html("");
 	firstCategory[0].logos.map((logo) => {
+		let brand = logo.split('/').pop().split('.')[0];
+		let message = `Me gustaría obtener información de productos instrumental liviano de tipo: ${currentElement}, específicamente de la marca ${brand}`
+
 		$(".marcasContainer").append(
-			`<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+			`<a href="javascript:enviarContact('${message}');" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
 		);
 	});
 
@@ -37,8 +40,11 @@ $(document).ready(function () {
 		$(".marcasContainer").html("");
 
 		currentCategory[0].logos.map((logo) => {
+			let brand = logo.split('/').pop().split('.')[0];
+			let message = `Me gustaría obtener información de productos instrumental liviano de tipo: ${currentElement}, específicamente de la marca ${brand}`
+
 			$(".marcasContainer").append(
-				`<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+				`<a href="javascript:enviarContact('${message}');" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
 			);
 		});
 	});
