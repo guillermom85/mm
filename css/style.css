@@ -334,6 +334,23 @@ h6,
 	cursor: pointer;
 }
 
+.prenav {
+	list-style-type: none;
+	margin-left: 2rem;
+}
+
+.prenav li {
+	color: #3d5998;
+	font-size: 15px;
+	margin-bottom: 2rem;
+	max-height: 20px;
+}
+
+.prenav li::before {
+	content: "•";
+	padding-right: 1rem;
+}
+
 .containerProducto {
 	border: 1px solid #a7a7a7;
 }

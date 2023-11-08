@@ -35,15 +35,15 @@ function replaceURLParameter(url, paramName, newValue) {
 
 function generateProduct(data) {
 	return `
-  <div class="col-12 col-md-3">
+  <div class="col-12 col-md-4">
     <div class="d-flex flex-row containerProducto p-2 m-2" style="min-height: 220px">
-      <img style="width: 77px; height: 177px" src="${data.imgUrl}" alt="" />
+      <img style=" object-fit: contain;" src="${data.imgUrl}" alt="" />
       <div class="d-flex flex-column detailsContainer p-2">
         <p class="productName my-0 pe-3">${data.title}</p>
         <p class="productBrand my-0">${data.brand}</p>
         <p class="productCategory my-0">${data.category}</p>
         <p class="productType my-0">${data.type}</p>
-        <a class="pdfButton mb-0 py-1 px-4 mt-2" href="${data.pdfUrl}">VER PDF</a>
+        <a class="pdfButton mb-0 py-1 px-4 mt-4" href="${data.pdfUrl}">VER PDF</a>
       </div>
     </div>
   </div> 
@@ -112,6 +112,19 @@ $(document).ready(function () {
 		} else {
 			categoriaFiltradas = categoriasIniciales;
 		}
+
+		categoriaFiltradas.productos.sort((a, b) => {
+			const brandA = a.brand.toLowerCase(); // Convert to lowercase for case-insensitive sorting
+			const brandB = b.brand.toLowerCase();
+
+			if (brandA < brandB) {
+				return -1;
+			}
+			if (brandA > brandB) {
+				return 1;
+			}
+			return 0;
+		});
 
 		categoriaFiltradas.productos.forEach((product) => {
 			let productHTML = generateProduct(product);

@@ -64,7 +64,7 @@ export const categoriasReactivos = [
       "../img/representadas/coaguchek.png",
       "../img/representadas/pacific.png",
       "../img/representadas/stago.png",
-      "../img/representadas/technoclone.jpg",
+      "../img/representadas/technoclone.png",
       "../img/representadas/tcoag.png",
     ],
   },
@@ -112,7 +112,7 @@ export const categoriasReactivos = [
       "../img/representadas/roche.png",
       "../img/representadas/biosystems.png",
       "../img/representadas/wienerlab.png",
-      "../img/representadas/bindingsite.jpg",
+      "../img/representadas/bindingsite.png",
     ],
   },
   {
@@ -196,7 +196,7 @@ export const categoriasReactivos = [
   },
   {
     categoria: "Screening neonatal",
-    logos: ["../img/representadas/acon.png"],
+    logos: ["../img/representadas/bacon.png"],
   },
   {
     categoria: "Serología",

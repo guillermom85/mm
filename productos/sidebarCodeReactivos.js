@@ -16,7 +16,7 @@ $(document).ready(function () {
 	$(".marcasContainer").html("");
 	firstCategory[0].logos.map((logo) => {
 		$(".marcasContainer").append(
-			`<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+			`<a href="../index.html?mensaje=Hola! quería consultar sobre un producto de ${firstCategory[0].categoria}#formContacto" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
 		);
 	});
 
@@ -38,7 +38,7 @@ $(document).ready(function () {
 
 		currentCategory[0].logos.map((logo) => {
 			$(".marcasContainer").append(
-				`<a href="#" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+				`<a href="../index.html?mensaje=Hola! quería consultar sobre un producto de ${currentCategory[0].categoria}#formContacto" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
 			);
 		});
 	});
