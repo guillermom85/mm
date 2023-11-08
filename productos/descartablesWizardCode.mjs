@@ -1,4 +1,4 @@
-import { descartables } from "../db/descartables.js";
+/* import { descartables } from "../db/descartables.js";
 
 $(document).ready(function () {
 	var navListItems = $("div.setup-panel div a"),
@@ -85,3 +85,4 @@ $(document).ready(function () {
 
 	//Content
 });
+ */
