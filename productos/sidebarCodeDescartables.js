@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 	//Carga primer elemento
 	let primerElemento = $(".menu li a").first();
-	primerElemento.addClass("active");
+	primerElemento.addClass("active")
 	$(".contentContainer .title").html(`${primerElemento.text()}`);
 	let firstElement = primerElemento.text().trim();
 	let firstCategory = descartables.filter((element) => {
@@ -15,10 +15,13 @@ $(document).ready(function () {
 	});
 	$(".marcasContainer").html("");
 	firstCategory[0].logos.map((logo) => {
+		let brand = logo.split('/').pop().split('.')[0];
+		let message = `Me gustaría obtener información de productos descartables de tipo: ${firstElement}, específicamente de la marca ${brand}`
+
 		$(".marcasContainer").append(
-			`<a href="../index.html?mensaje=Hola! quería consultar sobre un producto de ${firstCategory[0].title}#formContacto" class="logo col-12 col-md-5 mt-0 pt-0"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+			`<a href="javascript:enviarContact('${message}');" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
 		);
-	});
+	})
 	firstCategory[0].items.map((item) => {
 		$(".prenav").append(
 			`<li class="col-md-6 col-12">${item}</li>`
@@ -45,8 +48,11 @@ $(document).ready(function () {
 		$(".prenav").html("");
 
 		currentCategory[0].logos.map((logo) => {
+			let brand = logo.split('/').pop().split('.')[0];
+			let message = `Me gustaría obtener información de productos descartables de tipo: ${currentElement}, específicamente de la marca ${brand}`
+
 			$(".marcasContainer").append(
-				`<a href="../index.html?mensaje=Hola! quería consultar sobre un producto de ${currentCategory[0].title}#formContacto" class="logo col-12 col-md-5 mt-0 pt-0"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
+				`<a href="javascript:enviarContact('${message}');" class="logo col-12 col-md-3"><img class="removeBackground" src="${logo}" alt="Logo" /></a>`
 			);
 		});
 		currentCategory[0].items.map((item) => {

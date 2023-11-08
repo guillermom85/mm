@@ -79,7 +79,10 @@
         items: 1,
         dotsData: true,
     });
-
     
 })(jQuery);
 
+let enviarContact = (mensaje) => {
+    let encodedMessage = encodeURIComponent(mensaje);
+    window.location = `../index.html?mensaje=${encodedMessage}#contact`;
+};

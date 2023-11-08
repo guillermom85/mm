@@ -292,7 +292,7 @@ hover	#024474
     <!-- Our work End -->
 
     <!-- Trajectory Starts -->
-    <div id="contact" class="py-5 trajectory-content">
+    <div class="py-5 trajectory-content">
 
         <div class="row " style="">
             <p class="trajectoryText" style="font-weight: 100; font-size: 3rem; text-align: left">Trayectoria profesional</p style="font-weight: 100; font-size: 2rem; text-align: right; padding-right: 1rem;">
@@ -312,7 +312,7 @@ hover	#024474
                         personalizado de pre y post venta a nuestros
                         clientes.
                     </p>
-                    <p>
+                    <p id="contact">
                         Distribuimos <span style="font-weight: 500;">marcas líderes en el mercado</span> como ser Productos Roche división Diagnósitca, Cobas,
                         Sysmex, Ventana, Tib Molbiol, BD,
                         Vacutainer, Bactec, Biosystems, Roller, Tcoag, Stago, Wiener lab, Biopack, Feather, HDA,
@@ -366,23 +366,25 @@ hover	#024474
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3">
                         <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre completo" style="height: 55px;">
+                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre completo" style="height: 55px;" maxlength="256">
                         </div>
                         <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" id="inputCorreo" placeholder="Correo electrónico"
-                                style="height: 55px;">
+                            <input type="email" class="form-control" id="inputCorreo" placeholder="Correo electrónico" style="height: 55px;" maxlength="256">
                         </div>
                         <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="height: 55px;">
+                            <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="height: 55px;" maxlength="256">
                         </div>
                         <div class="col-12 col-sm-6">
 
                         </div>
                         <div class="col-12">
-                            <textarea class="form-control" id="inputMensaje" rows="5" placeholder="Mensaje"></textarea>
+                            <textarea class="form-control" id="inputMensaje" rows="5" placeholder="Mensaje" maxlength="4000"></textarea>
                         </div>
                         <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="submit">Enviar</button>
+                            <button class="btn btn-primary w-100 py-3" type="button" onclick="sendMessage();">Enviar</button>
+                        </div>
+                        <div class="col-12">
+                            <span id="formResult"></span>
                         </div>
                     </div>
                 </div>
