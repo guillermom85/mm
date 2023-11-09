@@ -5,7 +5,7 @@ export const categorias = [
 		hexColor: "#00ABA1",
 		productos: [
 			{
-				title: "Procesador automático para imagen",
+				title: "Procesador automático para IFI i-Pro",
 				brand: "Biosystems",
 				category: "Autoinmunidad",
 				type: "Equipos Automáticos",
@@ -82,15 +82,7 @@ export const categorias = [
 				type: "Contadores Hematológicos",
 				pdfUrl: "../docs/instrumentalLiviano/XN Series 2000, 3000, 9000.pdf",
 				imgUrl: "../img/instrumentalLiviano/Sysmex XN 9000.png",
-			},
-			{
-				title: "Análisis de imágenes celulares",
-				brand: "Sysmex",
-				category: "Equipos Automáticos",
-				type: "Contadores Hematológicos",
-				pdfUrl: "",
-				imgUrl: "../img/instrumentalLiviano/imagen.png",
-			},
+			}
 		],
 	},
 	{
@@ -170,11 +162,11 @@ export const categorias = [
 				imgUrl: "../img/instrumentalLiviano/Benchmark GX.png",
 			},
 			{
-				title: "Benchmark XT",
+				title: "Benchmark ultra",
 				brand: "Ventana",
 				category: "Anatomía Patológica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/IPRO.pdf",
+				pdfUrl: "../docs/instrumentalLiviano/Ventana ULTRA.pdf",
 				imgUrl: "../img/instrumentalLiviano/Benchmark XT.png",
 			},
 			{
@@ -203,7 +195,7 @@ export const categorias = [
 				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
 			},
 			{
-				title: "Cobas e 503",
+				title: "Cobas c 503",
 				brand: "Cobas",
 				category:
 					"Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
@@ -316,7 +308,7 @@ export const categorias = [
 				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
 			},
 			{
-				title: "Cobas e 503",
+				title: "Cobas c 503",
 				brand: "Cobas",
 				category:
 					"Endocrinología / Inmunología / Marcadores Tumorales / Banco de Sangre",
@@ -624,8 +616,8 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Orina / Veterinaria",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 411.pdf",
-				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
+				pdfUrl: "../docs/instrumentalLiviano/cobas u 411.pdf",
+				imgUrl: "../img/instrumentalLiviano/cobas u 411.png",
 			},
 		],
 	},
