@@ -1,7 +1,10 @@
 export const descartables = [
 	{
 		title: "Preanalítica",
-		items: ["Sistema Vacutainer", "Microtainer"],
+		items: [
+			"Sistema Vacutainer", 
+			"Microtainer"
+		],
 		logos: [
 			"../img/representadas/bd.png", 
 			"../img/representadas/tecnon.png",
@@ -17,6 +20,7 @@ export const descartables = [
 			"../img/representadas/biocap.png",
 			"../img/representadas/doncella.png",
 			"../img/representadas/crisblan.png",
+			"../img/representadas/np.png",
 		],
 	},
 	{
@@ -33,7 +37,7 @@ export const descartables = [
 			"Pipetas",
 			"Placas de Petri",
 			"Recolectores para Heces",
-			"Recolectores para Orina",
+			"Orina",
 			"Tips",
 			"Tubos preparados",
 			"Tubos secos",
@@ -54,6 +58,7 @@ export const descartables = [
 			"../img/representadas/biocap.png",
 			"../img/representadas/doncella.png",
 			"../img/representadas/crisblan.png",
+			"../img/representadas/np.png",
 		],
 	},
 	{
@@ -94,6 +99,7 @@ export const descartables = [
 			"../img/representadas/biocap.png",
 			"../img/representadas/doncella.png",
 			"../img/representadas/crisblan.png",
+			"../img/representadas/np.png",
 		],
 	},
 	{
@@ -130,6 +136,7 @@ export const descartables = [
 			"../img/representadas/biocap.png",
 			"../img/representadas/doncella.png",
 			"../img/representadas/crisblan.png",
+			"../img/representadas/np.png",
 		],
 	},
 ];

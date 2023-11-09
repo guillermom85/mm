@@ -1,27 +1,15 @@
 export const categoriasReactivos = [
   {
+    categoria: "Autoinmunidad",
+    logos: ["../img/representadas/biosystems.png"],
+  },
+  {
     categoria: "Anatomía Patológica",
     logos: [
       "../img/representadas/roche.png",
       "../img/representadas/ventana.png",
       "../img/representadas/biopack.png",
       "../img/representadas/bradley.png",
-    ],
-  },
-  {
-    categoria: "Autoinmunidad",
-    logos: ["../img/representadas/biosystems.png"],
-  },
-  {
-    categoria: "Bacteriología",
-    logos: [
-      "../img/representadas/oxoid.png",
-      "../img/representadas/remel.png",
-      "../img/representadas/bd.png",
-      "../img/representadas/vedalab.png",
-      "../img/representadas/brizuela.png",
-      "../img/representadas/terragene.jpg",
-      "../img/representadas/biocientifica.png",
     ],
   },
   {
@@ -36,8 +24,8 @@ export const categoriasReactivos = [
     logos: [
       "../img/representadas/roche.png",
       "../img/representadas/bd.png",
-      "../img/representadas/wienerlab.png",
       "../img/representadas/tib.jpg",
+      "../img/representadas/wienerlab.png",
     ],
   },
   {
@@ -45,11 +33,11 @@ export const categoriasReactivos = [
     logos: [
       "../img/representadas/roche.png",
       "../img/representadas/biosystems.png",
+      "../img/representadas/wienerlab.png",
+      "../img/representadas/random.png",
       "../img/representadas/vedalab.png",
       "../img/representadas/alltest.png",
       "../img/representadas/accubiotech.png",
-      "../img/representadas/wienerlab.png",
-      "../img/representadas/random.png",
     ],
   },
   {
@@ -60,35 +48,19 @@ export const categoriasReactivos = [
     categoria: "Coagulación",
     logos: [
       "../img/representadas/roche.png",
-      "../img/representadas/wienerlab.png",
       "../img/representadas/coaguchek.png",
-      "../img/representadas/pacific.png",
       "../img/representadas/stago.png",
-      "../img/representadas/technoclone.png",
       "../img/representadas/tcoag.png",
-    ],
-  },
-  {
-    categoria: "Control de Calidad",
-    logos: [
-      "../img/representadas/roche.png",
-      "../img/representadas/sysmex.png",
-      "../img/representadas/randox.png",
-      "../img/representadas/alere.jpg",
-      "../img/representadas/stago.png",
-    ],
-  },
-  {
-    categoria: "Drogas y Reactivos",
-    logos: [
-      "../img/representadas/porta.png",
-      "../img/representadas/biopack.png",
-      "../img/representadas/sintorgan.png",
+      "../img/representadas/wienerlab.png",
+      "../img/representadas/pacific.png",
+      "../img/representadas/technoclone.png",
     ],
   },
   {
     categoria: "Endocrinología",
-    logos: ["../img/representadas/roche.png", "../img/representadas/tosoh.png"],
+    logos: [
+      "../img/representadas/roche.png",
+      "../img/representadas/tosoh.png"],
   },
   {
     categoria: "Hematología",
@@ -102,8 +74,8 @@ export const categoriasReactivos = [
   {
     categoria: "Industria",
     logos: [
-      "../img/representadas/deltalab.png",
       "../img/representadas/biopack.png",
+      "../img/representadas/deltalab.png",
     ],
   },
   {
@@ -111,25 +83,16 @@ export const categoriasReactivos = [
     logos: [
       "../img/representadas/roche.png",
       "../img/representadas/biosystems.png",
-      "../img/representadas/wienerlab.png",
       "../img/representadas/bindingsite.png",
-    ],
-  },
-  {
-    categoria: "Investigación",
-    logos: [
-      "../img/representadas/roche.png",
-      "../img/representadas/invitrogen.jpg",
-      "../img/representadas/lifescience.png",
-      "../img/representadas/biopack.png",
+      "../img/representadas/wienerlab.png",
     ],
   },
   {
     categoria: "Marcadores tumorales",
     logos: [
       "../img/representadas/roche.png",
-      "../img/representadas/tosoh.png",
       "../img/representadas/ventana.png",
+      "../img/representadas/tosoh.png",
     ],
   },
   {
@@ -150,6 +113,7 @@ export const categoriasReactivos = [
       "../img/representadas/vedalab.png",
       "../img/representadas/brizuela.png",
       "../img/representadas/alltest.png",
+      "../img/representadas/acon.png",
       "../img/representadas/advin.png",
       "../img/representadas/accubiotech.png",
     ],
@@ -161,7 +125,6 @@ export const categoriasReactivos = [
       "../img/representadas/biosystems.png",
       "../img/representadas/wienerlab.png",
       "../img/representadas/alltest.png",
-      "../img/representadas/acon.png",
       "../img/representadas/advin.png",
       "../img/representadas/accubiotech.png",
     ],
@@ -185,7 +148,12 @@ export const categoriasReactivos = [
       "../img/representadas/sebia.png",
     ],
   },
-  { categoria: "Proteinograma", logos: ["../img/representadas/sebia.png"] },
+  {
+    categoria: "Proteinograma",
+    logos: [
+      "../img/representadas/sebia.png"
+    ]
+  },
   {
     categoria: "Química Clínica",
     logos: [
@@ -209,13 +177,11 @@ export const categoriasReactivos = [
       "../img/representadas/advin.png",
     ],
   },
-  { categoria: "Sistema de Vacío", logos: ["../img/representadas/bd.png"] },
   {
     categoria: "Test rápidos",
     logos: [
       "../img/representadas/roche.png",
       "../img/representadas/bd.png",
-
       "../img/representadas/chemtest.png",
       "../img/representadas/alltest.png",
       "../img/representadas/advin.png",
