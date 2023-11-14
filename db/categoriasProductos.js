@@ -310,7 +310,7 @@ export const categorias = [
 					"Endocrinología / Inmunología / Marcadores Tumorales / Banco de Sangre",
 				type: "Equipos Automáticos",
 				pdfUrl: "../docs/instrumentos/cobas e 503.pdf",
-				imgUrl: "",
+				imgUrl: "../img/instrumentalLiviano/cobas c 503.png",
 			},
 			{
 				title: "Cobas e 801",
