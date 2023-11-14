@@ -181,15 +181,13 @@ export const categorias = [
 	},
 	{
 		title: "Endocrinología, Inmuno, Marcadores tumorales",
-		imgUrl:
-			"../img/iconosNuevos/Endocrinología, Inmuno, Marcadores tumorales.png",
+		imgUrl: "../img/iconosNuevos/Endocrinología, Inmuno, Marcadores tumorales.png",
 		hexColor: "#FFBF30",
 		productos: [
 			{
 				title: "Cobas e411",
 				brand: "Cobas",
-				category:
-					"Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
+				category: "Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
 				type: "Equipos Automáticos",
 				pdfUrl: "../docs/instrumentos/cobas e 411.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
@@ -197,17 +195,15 @@ export const categorias = [
 			{
 				title: "Cobas c 503",
 				brand: "Cobas",
-				category:
-					"Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
+				category: "Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
 				type: "Equipos Automáticos",
 				pdfUrl: "../docs/instrumentos/cobas e 503.pdf",
-				imgUrl: "",
+				imgUrl: "../img/instrumentalLiviano/cobas c 503.png",
 			},
 			{
 				title: "Cobas e 801",
 				brand: "Cobas",
-				category:
-					"Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
+				category: "Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
 				type: "Equipos Automáticos",
 				pdfUrl: "../docs/instrumentos/cobas e 801.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas e 801.png",
@@ -425,7 +421,7 @@ export const categorias = [
 				brand: "Wiener",
 				category: "",
 				type: "",
-				pdfUrl: "../docs/instrumentos/IPRO.pdf",
+				pdfUrl: "../docs/instrumentos/e32.pdf",
 				imgUrl: "../img/instrumentalLiviano/e32.png",
 			},
 			{
@@ -576,7 +572,7 @@ export const categorias = [
 				brand: "Diestro",
 				category: "Veterinaria",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentos/DIESTRO VET 103.pdf",
+				pdfUrl: "../docs/instrumentos/DIESTRO 103.pdf",
 				imgUrl: "../img/instrumentalLiviano/Diestro VET 103.png",
 			},
 			{
@@ -663,8 +659,8 @@ export const categorias = [
 				brand: "Opti Medical",
 				category: "Medio interno",
 				type: "Equipos Automáticos",
-				pdfUrl: "",
-				imgUrl: "",
+				pdfUrl: "../docs/instrumentos/OPTI CCA TS2.pdf",
+				imgUrl: "../img/instrumentalLiviano/Opti CCA-TS2.png",
 			},
 			{
 				title: "AVL 9180",
@@ -679,23 +675,23 @@ export const categorias = [
 				brand: "Diestro",
 				category: "Medio interno",
 				type: "Equipos Automáticos",
-				pdfUrl: "",
-				imgUrl: "",
+				pdfUrl: "../docs/instrumentos/DIESTRO 103.pdf",
+				imgUrl: "../img/instrumentalLiviano/Diestro VET 103.png",
 			},
 			{
 				title: "Analizador automático de electrolitos ",
 				brand: "Diestro",
 				category: "Medio interno",
 				type: "Equipos Automáticos",
-				pdfUrl: "",
-				imgUrl: "",
+				pdfUrl: "../docs/instrumentos/DIESTRO 103.pdf",
+				imgUrl: "../img/instrumentalLiviano/Diestro VET 103.png",
 			},
 			{
 				title: "EXIAS e1",
 				brand: "EXIAS Medical",
 				category: "Medio interno",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentos/v.pdf",
+				pdfUrl: "../docs/instrumentos/EXIAS_E1Analyzer.pdf",
 				imgUrl: "../img/instrumentalLiviano/EXIAS e1.png",
 			},
 		],
@@ -750,7 +746,7 @@ export const categorias = [
 				brand: "Stago",
 				category: "Equipos Automáticos",
 				type: "Coagulación",
-				pdfUrl: "",
+				pdfUrl: "../docs/instrumentos/STA Satellite Max.pdf",
 				imgUrl: "../img/instrumentalLiviano/Start Max.png",
 			},
 			{
@@ -837,8 +833,8 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Orina",
 				type: "Equipos Automáticos",
-				pdfUrl: "",
-				imgUrl: "",
+				pdfUrl: "../docs/instrumentos/cobas e 411.pdf",
+				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
 			},
 			{
 				title: "Cobas u 601",

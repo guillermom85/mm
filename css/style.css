@@ -596,11 +596,12 @@ h6,
 .quality .quality-img {
 	display: flex;
 	justify-content: center;
-	margin-top: -150px;
+	margin-top: -100px;
 }
 
 .quality .quality-img img {
-	width: 340px;
+	width: 100%;
+	max-width: 500px;
 }
 
 /*** Service ***/
