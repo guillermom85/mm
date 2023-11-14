@@ -9,7 +9,7 @@ export const categorias = [
 				brand: "Biosystems",
 				category: "Autoinmunidad",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/IPRO.pdf",
+				pdfUrl: "../docs/instrumentos/IPRO.pdf",
 				imgUrl: "../img/instrumentalLiviano/IFI i-Pro.png",
 			},
 		],
@@ -24,7 +24,7 @@ export const categorias = [
 				brand: "Sysmex",
 				category: "Equipos Automáticos",
 				type: "Contadores Hematológicos",
-				pdfUrl: "../docs/instrumentalLiviano/Sysmex XP 300.pdf",
+				pdfUrl: "../docs/instrumentos/Sysmex XP 300.pdf",
 				imgUrl: "../img/instrumentalLiviano/Sysmex XP300.png",
 			},
 			{
@@ -32,7 +32,7 @@ export const categorias = [
 				brand: "Sysmex",
 				category: "Equipos Automáticos",
 				type: "Contadores Hematológicos",
-				pdfUrl: "../docs/instrumentalLiviano/XN-L 350 450 y 550.pdf",
+				pdfUrl: "../docs/instrumentos/XN-L 350 450 y 550.pdf",
 				imgUrl: "../img/instrumentalLiviano/XN-L 350.png",
 			},
 			{
@@ -40,7 +40,7 @@ export const categorias = [
 				brand: "Sysmex",
 				category: "Equipos Automáticos",
 				type: "Contadores Hematológicos",
-				pdfUrl: "../docs/instrumentalLiviano/XN-L 350 450 y 550.pdf",
+				pdfUrl: "../docs/instrumentos/XN-L 350 450 y 550.pdf",
 				imgUrl: "../img/instrumentalLiviano/XN-L 450.png",
 			},
 			{
@@ -48,7 +48,7 @@ export const categorias = [
 				brand: "Sysmex",
 				category: "Equipos Automáticos",
 				type: "Contadores Hematológicos",
-				pdfUrl: "../docs/instrumentalLiviano/XN-L 350 450 y 550.pdf",
+				pdfUrl: "../docs/instrumentos/XN-L 350 450 y 550.pdf",
 				imgUrl: "../img/instrumentalLiviano/XN-L 450.png",
 			},
 			{
@@ -56,7 +56,7 @@ export const categorias = [
 				brand: "Sysmex",
 				category: "Equipos Automáticos",
 				type: "Contadores Hematológicos",
-				pdfUrl: "../docs/instrumentalLiviano/XN-1000.pdf",
+				pdfUrl: "../docs/instrumentos/XN-1000.pdf",
 				imgUrl: "../img/instrumentalLiviano/Sysmex XN1000.png",
 			},
 			{
@@ -64,7 +64,7 @@ export const categorias = [
 				brand: "Sysmex",
 				category: "Equipos Automáticos",
 				type: "Contadores Hematológicos",
-				pdfUrl: "../docs/instrumentalLiviano/XN Series 2000, 3000, 9000.pdf",
+				pdfUrl: "../docs/instrumentos/XN Series 2000, 3000, 9000.pdf",
 				imgUrl: "../img/instrumentalLiviano/Sysmex XN 2000.png",
 			},
 			{
@@ -72,7 +72,7 @@ export const categorias = [
 				brand: "Sysmex",
 				category: "Equipos Automáticos",
 				type: "Contadores Hematológicos",
-				pdfUrl: "../docs/instrumentalLiviano/XN Series 2000, 3000, 9000.pdf",
+				pdfUrl: "../docs/instrumentos/XN Series 2000, 3000, 9000.pdf",
 				imgUrl: "../img/instrumentalLiviano/Sysmex XN 3000.png",
 			},
 			{
@@ -80,7 +80,7 @@ export const categorias = [
 				brand: "Sysmex",
 				category: "Equipos Automáticos",
 				type: "Contadores Hematológicos",
-				pdfUrl: "../docs/instrumentalLiviano/XN Series 2000, 3000, 9000.pdf",
+				pdfUrl: "../docs/instrumentos/XN Series 2000, 3000, 9000.pdf",
 				imgUrl: "../img/instrumentalLiviano/Sysmex XN 9000.png",
 			}
 		],
@@ -95,7 +95,7 @@ export const categorias = [
 				brand: "Accutrend",
 				category: "Lactato / Colesterol / Triglicéridos ",
 				type: "Equipos Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/Accutrend.pdf",
+				pdfUrl: "../docs/instrumentos/Accutrend.pdf",
 				imgUrl: "../img/instrumentalLiviano/Accutrend.png",
 			},
 			{
@@ -103,7 +103,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Cardiología / Point of Care",
 				type: "Equipos Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/cobas H232.pdf",
+				pdfUrl: "../docs/instrumentos/cobas H232.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas h232.png",
 			},
 			{
@@ -111,7 +111,7 @@ export const categorias = [
 				brand: "Coagucheck",
 				category: "Coagulación / Point of Care",
 				type: "Equipos Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/Coaguchek xs.pdf",
+				pdfUrl: "../docs/instrumentos/Coaguchek xs.pdf",
 				imgUrl: "../img/instrumentalLiviano/Coaguchek XS.png",
 			},
 			{
@@ -119,7 +119,7 @@ export const categorias = [
 				brand: "Coagucheck",
 				category: "Coagulación / Point of Care",
 				type: "Equipos Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/Coaguchek pro.pdf",
+				pdfUrl: "../docs/instrumentos/Coaguchek pro.pdf",
 				imgUrl: "../img/instrumentalLiviano/CoaguChek Pro.png",
 			},
 			{
@@ -127,7 +127,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Biología Molecular / Microbiología / Point of Care",
 				type: "Equipos Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas Liat.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas Liat.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas Liat.png",
 			},
 			{
@@ -135,7 +135,7 @@ export const categorias = [
 				brand: "BD",
 				category: "Lector de test rápidos / Microbiología / Point of Care",
 				type: "Equipos Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/BD Veritor Plus.pdf",
+				pdfUrl: "../docs/instrumentos/BD Veritor Plus.pdf",
 				imgUrl: "../img/instrumentalLiviano/BD Veritor.png",
 			},
 			{
@@ -143,7 +143,7 @@ export const categorias = [
 				brand: "Opti",
 				category: "Medio Interno / Point of Care",
 				type: "Equipos Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/OPTI CCA TS2.pdf",
+				pdfUrl: "../docs/instrumentos/OPTI CCA TS2.pdf",
 				imgUrl: "../img/instrumentalLiviano/Opti CCA-TS2.png",
 			},
 		],
@@ -158,7 +158,7 @@ export const categorias = [
 				brand: "Ventana",
 				category: "Anatomía Patológica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Benchmark GX español.pdf",
+				pdfUrl: "../docs/instrumentos/Benchmark GX español.pdf",
 				imgUrl: "../img/instrumentalLiviano/Benchmark GX.png",
 			},
 			{
@@ -166,7 +166,7 @@ export const categorias = [
 				brand: "Ventana",
 				category: "Anatomía Patológica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Ventana ULTRA.pdf",
+				pdfUrl: "../docs/instrumentos/Ventana ULTRA.pdf",
 				imgUrl: "../img/instrumentalLiviano/Benchmark XT.png",
 			},
 			{
@@ -174,7 +174,7 @@ export const categorias = [
 				brand: "Ventana",
 				category: "Anatomía Patológica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/DP 200.pdf",
+				pdfUrl: "../docs/instrumentos/DP 200.pdf",
 				imgUrl: "../img/instrumentalLiviano/DP200.png",
 			},
 		],
@@ -191,7 +191,7 @@ export const categorias = [
 				category:
 					"Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 411.pdf",
+				pdfUrl: "../docs/instrumentos/cobas e 411.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
 			},
 			{
@@ -200,7 +200,7 @@ export const categorias = [
 				category:
 					"Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 503.pdf",
+				pdfUrl: "../docs/instrumentos/cobas e 503.pdf",
 				imgUrl: "",
 			},
 			{
@@ -209,7 +209,7 @@ export const categorias = [
 				category:
 					"Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 801.pdf",
+				pdfUrl: "../docs/instrumentos/cobas e 801.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas e 801.png",
 			},
 		],
@@ -224,7 +224,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Química Clínica / veterinaria ",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas c111.pdf",
+				pdfUrl: "../docs/instrumentos/cobas c111.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas c 111.png",
 			},
 			{
@@ -232,7 +232,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Química Clínica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas c 311.pdf",
+				pdfUrl: "../docs/instrumentos/cobas c 311.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas c 311.png",
 			},
 			{
@@ -240,7 +240,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Química Clínica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas c 501.pdf",
+				pdfUrl: "../docs/instrumentos/cobas c 501.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas c 501.png",
 			},
 			{
@@ -248,7 +248,7 @@ export const categorias = [
 				brand: "Metrolab",
 				category: "Química Clínica / veterinaria",
 				type: "Equipos Semiautomáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Metrolab 1600 DR.pdf",
+				pdfUrl: "../docs/instrumentos/Metrolab 1600 DR.pdf",
 				imgUrl: "../img/instrumentalLiviano/Metrolab 1600 DR.png",
 			},
 			{
@@ -256,7 +256,7 @@ export const categorias = [
 				brand: "Wiener",
 				category: "Química Clínica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/CM 200.pdf",
+				pdfUrl: "../docs/instrumentos/CM 200.pdf",
 				imgUrl: "../img/instrumentalLiviano/CM 200.png",
 			},
 			{
@@ -264,7 +264,7 @@ export const categorias = [
 				brand: "Wiener",
 				category: "Química Clínica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/CM 250.pdf",
+				pdfUrl: "../docs/instrumentos/CM 250.pdf",
 				imgUrl: "../img/instrumentalLiviano/CM 250.png",
 			},
 			{
@@ -272,7 +272,7 @@ export const categorias = [
 				brand: "Biosystems",
 				category: "Química Clínica / veterinaria",
 				type: "Equipos Semiautomáticos",
-				pdfUrl: "../docs/instrumentalLiviano/BTS 350.pdf",
+				pdfUrl: "../docs/instrumentos/BTS 350.pdf",
 				imgUrl: "../img/instrumentalLiviano/BTS 350.png",
 			},
 			{
@@ -280,7 +280,7 @@ export const categorias = [
 				brand: "Biosystems",
 				category: "Química Clínica / veterinaria",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/A15.pdf",
+				pdfUrl: "../docs/instrumentos/A15.pdf",
 				imgUrl: "../img/instrumentalLiviano/Autoanalizador A 15.png",
 			},
 			{
@@ -288,7 +288,7 @@ export const categorias = [
 				brand: "Biosystems",
 				category: "Química Clínica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/A25.pdf",
+				pdfUrl: "../docs/instrumentos/A25.pdf",
 				imgUrl: "../img/instrumentalLiviano/Autoanalizador A 25.png",
 			},
 		],
@@ -304,7 +304,7 @@ export const categorias = [
 				category:
 					"Endocrinología / Inmunología / Marcadores Tumorales / Banco de Sangre",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 411.pdf",
+				pdfUrl: "../docs/instrumentos/cobas e 411.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
 			},
 			{
@@ -313,7 +313,7 @@ export const categorias = [
 				category:
 					"Endocrinología / Inmunología / Marcadores Tumorales / Banco de Sangre",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 503.pdf",
+				pdfUrl: "../docs/instrumentos/cobas e 503.pdf",
 				imgUrl: "",
 			},
 			{
@@ -322,7 +322,7 @@ export const categorias = [
 				category:
 					"Endocrinología / Inmunología / Marcadores Tumorales / Banco de Sangre",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 801.pdf",
+				pdfUrl: "../docs/instrumentos/cobas e 801.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas e 801.png",
 			},
 			{
@@ -330,7 +330,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Biología Molecular / NAT",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas 5800.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas 5800.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas 5800.png",
 			},
 		],
@@ -345,7 +345,7 @@ export const categorias = [
 				brand: "Sebia",
 				category: "Electroforesis capilar",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Minicap.pdf",
+				pdfUrl: "../docs/instrumentos/Minicap.pdf",
 				imgUrl: "../img/instrumentalLiviano/Minicap.png",
 			},
 			{
@@ -353,7 +353,7 @@ export const categorias = [
 				brand: "Sebia",
 				category: "Electroforesis capilar",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Capillarys 2.pdf",
+				pdfUrl: "../docs/instrumentos/Capillarys 2.pdf",
 				imgUrl: "../img/instrumentalLiviano/Capilarys 2.png",
 			},
 			{
@@ -361,7 +361,7 @@ export const categorias = [
 				brand: "Sebia",
 				category: "Electroforesis capilar",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/BG_SEBIA_CAPILLARYS 3 OCTA.pdf",
+				pdfUrl: "../docs/instrumentos/BG_SEBIA_CAPILLARYS 3 OCTA.pdf",
 				imgUrl: "../img/instrumentalLiviano/Capilarys 3 OCTA.png",
 			},
 		],
@@ -379,7 +379,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Software",
 				type: "Sistema de gestión de Laboratorio",
-				pdfUrl: "../docs/instrumentalLiviano/cobas infinity.pdf",
+				pdfUrl: "../docs/instrumentos/cobas infinity.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas Infinity.png",
 			},
 		],
@@ -394,7 +394,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Biología Molecular / NAT ",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas 5800.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas 5800.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas 5800.png",
 			},
 			{
@@ -402,7 +402,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Biología Molecular / NAT ",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas Liat.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas Liat.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas Liat.png",
 			},
 			{
@@ -410,7 +410,7 @@ export const categorias = [
 				brand: "BD",
 				category: "Biología Molecular / NAT ",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Brochure_ BD MAX™ system 2023.pdf",
+				pdfUrl: "../docs/instrumentos/Brochure_ BD MAX™ system 2023.pdf",
 				imgUrl: "../img/instrumentalLiviano/BD Max.png",
 			},
 		],
@@ -425,7 +425,7 @@ export const categorias = [
 				brand: "Wiener",
 				category: "",
 				type: "",
-				pdfUrl: "../docs/instrumentalLiviano/IPRO.pdf",
+				pdfUrl: "../docs/instrumentos/IPRO.pdf",
 				imgUrl: "../img/instrumentalLiviano/e32.png",
 			},
 			{
@@ -433,7 +433,7 @@ export const categorias = [
 				brand: "ALIFAX",
 				category: "",
 				type: "",
-				pdfUrl: "../docs/instrumentalLiviano/Roller.pdf",
+				pdfUrl: "../docs/instrumentos/Roller.pdf",
 				imgUrl: "../img/instrumentalLiviano/Roller 20 LC.png",
 			},
 		],
@@ -449,7 +449,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Cardiología / Marcadores Tumorales / Serología/ Quimica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas Pure.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas Pure.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas Pure.png",
 			},
 			{
@@ -457,7 +457,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Cardiología / Marcadores Tumorales / Serología/ Quimica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas Pro.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas Pro.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas Pro.png",
 			},
 		],
@@ -472,7 +472,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Cardiología / Point of care",
 				type: "Equipos Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/cobas H232.pdf",
+				pdfUrl: "../docs/instrumentos/cobas H232.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas h232.png",
 			},
 			{
@@ -480,7 +480,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Equipos Automáticos",
 				type: "Cardiología / Marcadores Tumorales / Serología",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 411.pdf",
+				pdfUrl: "../docs/instrumentos/cobas e 411.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
 			},
 			{
@@ -488,7 +488,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Equipos Automáticos",
 				type: "Cardiología / Marcadores Tumorales / Serología/ Quimica",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas Pure.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas Pure.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas Pure.png",
 			},
 			{
@@ -496,7 +496,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Equipos Automáticos",
 				type: "Cardiología / Marcadores Tumorales / Serología/ Quimica",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas Pro.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas Pro.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas Pro.png",
 			},
 		],
@@ -511,7 +511,7 @@ export const categorias = [
 				brand: "BD",
 				category: "Hemocultivo / Microbiología",
 				type: "Equipos Automáticos ",
-				pdfUrl: "../docs/instrumentalLiviano/FX 40.pdf",
+				pdfUrl: "../docs/instrumentos/FX 40.pdf",
 				imgUrl: "../img/instrumentalLiviano/FX 40.png",
 			},
 			{
@@ -520,7 +520,7 @@ export const categorias = [
 				category:
 					"Identificación Microbiana / Sensibilidad a antibióticos / Microbiología",
 				type: "Equipos Automáticos ",
-				pdfUrl: "../docs/instrumentalLiviano/M50.pdf",
+				pdfUrl: "../docs/instrumentos/M50.pdf",
 				imgUrl: "../img/instrumentalLiviano/M50.png",
 			},
 			{
@@ -537,7 +537,7 @@ export const categorias = [
 				brand: "BD",
 				category: "Biología Molecular",
 				type: "Equipos Automáticos ",
-				pdfUrl: "../docs/instrumentalLiviano/Brochure_ BD MAX™ system 2023.pdf",
+				pdfUrl: "../docs/instrumentos/Brochure_ BD MAX™ system 2023.pdf",
 				imgUrl: "../img/instrumentalLiviano/BD Max.png",
 			},
 			{
@@ -545,7 +545,7 @@ export const categorias = [
 				brand: "BD",
 				category: "Lector de test rápido / Point of care / Microbiología",
 				type: "Equipos Semiautomático",
-				pdfUrl: "../docs/instrumentalLiviano/BD Veritor Plus.pdf",
+				pdfUrl: "../docs/instrumentos/BD Veritor Plus.pdf",
 				imgUrl: "../img/instrumentalLiviano/BD Veritor.png",
 			},
 			{
@@ -553,7 +553,7 @@ export const categorias = [
 				brand: "Cobas ",
 				category: "Biología Molecular / Point of care",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas Liat.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas Liat.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas Liat.png",
 			},
 			{
@@ -561,7 +561,7 @@ export const categorias = [
 				brand: "Cobas ",
 				category: "Biología Molecular / NAT ",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas 5800.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas 5800.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas 5800.png",
 			},
 		],
@@ -576,7 +576,7 @@ export const categorias = [
 				brand: "Diestro",
 				category: "Veterinaria",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/DIESTRO VET 103.pdf",
+				pdfUrl: "../docs/instrumentos/DIESTRO VET 103.pdf",
 				imgUrl: "../img/instrumentalLiviano/Diestro VET 103.png",
 			},
 			{
@@ -584,7 +584,7 @@ export const categorias = [
 				brand: "Metrolab",
 				category: "Química Clínica / veterinaria",
 				type: "Equipos Semiautomáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Metrolab 1600 DR.pdf",
+				pdfUrl: "../docs/instrumentos/Metrolab 1600 DR.pdf",
 				imgUrl: "../img/instrumentalLiviano/Metrolab 1600 DR.png",
 			},
 			{
@@ -592,7 +592,7 @@ export const categorias = [
 				brand: "Biosystems",
 				category: "Química Clínica / veterinaria",
 				type: "Equipos Semiautomáticos",
-				pdfUrl: "../docs/instrumentalLiviano/BTS 350.pdf",
+				pdfUrl: "../docs/instrumentos/BTS 350.pdf",
 				imgUrl: "../img/instrumentalLiviano/BTS 350.png",
 			},
 			{
@@ -600,7 +600,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Química Clínica / veterinaria",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas c111.pdf",
+				pdfUrl: "../docs/instrumentos/cobas c111.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas c 111.png",
 			},
 			{
@@ -608,7 +608,7 @@ export const categorias = [
 				brand: "Biosystems",
 				category: "Química Clínica / veterinaria",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/A15.pdf",
+				pdfUrl: "../docs/instrumentos/A15.pdf",
 				imgUrl: "../img/instrumentalLiviano/Autoanalizador A 15.png",
 			},
 			{
@@ -616,7 +616,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Orina / Veterinaria",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas u 411.pdf",
+				pdfUrl: "../docs/instrumentos/cobas u 411.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas u 411.png",
 			},
 		],
@@ -631,7 +631,7 @@ export const categorias = [
 				brand: "BD",
 				category: "Citometría de Flujo",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/BD_FACSAria.pdf",
+				pdfUrl: "../docs/instrumentos/BD_FACSAria.pdf",
 				imgUrl: "../img/instrumentalLiviano/BD FACSAria.png",
 			},
 			{
@@ -640,7 +640,7 @@ export const categorias = [
 				category: "Citometría de Flujo",
 				type: "Equipos Automáticos",
 				pdfUrl:
-					"../docs/instrumentalLiviano/X23-8742-03_BD_FACSCanto_II_EU.pdf",
+					"../docs/instrumentos/X23-8742-03_BD_FACSCanto_II_EU.pdf",
 				imgUrl: "../img/instrumentalLiviano/BD FACSCanto.png",
 			},
 		],
@@ -655,7 +655,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Medio interno",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas b221.pdf",
+				pdfUrl: "../docs/instrumentos/cobas b221.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas b221.png",
 			},
 			{
@@ -671,7 +671,7 @@ export const categorias = [
 				brand: "AVL",
 				category: "Medio interno",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/AVL 9180.pdf",
+				pdfUrl: "../docs/instrumentos/AVL 9180.pdf",
 				imgUrl: "../img/instrumentalLiviano/AVL 9180.png",
 			},
 			{
@@ -695,7 +695,7 @@ export const categorias = [
 				brand: "EXIAS Medical",
 				category: "Medio interno",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/v.pdf",
+				pdfUrl: "../docs/instrumentos/v.pdf",
 				imgUrl: "../img/instrumentalLiviano/EXIAS e1.png",
 			},
 		],
@@ -710,7 +710,7 @@ export const categorias = [
 				brand: "Coagucheck",
 				category: "Equipos Point of Care",
 				type: "Coagulación / Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/Coaguchek xs.pdf",
+				pdfUrl: "../docs/instrumentos/Coaguchek xs.pdf",
 				imgUrl: "../img/instrumentalLiviano/Coaguchek XS.png",
 			},
 			{
@@ -718,7 +718,7 @@ export const categorias = [
 				brand: "Coagucheck",
 				category: "Equipos Point of Care",
 				type: "Coagulación / Point of Care",
-				pdfUrl: "../docs/instrumentalLiviano/Coaguchek pro.pdf",
+				pdfUrl: "../docs/instrumentos/Coaguchek pro.pdf",
 				imgUrl: "../img/instrumentalLiviano/CoaguChek Pro.png",
 			},
 			{
@@ -726,7 +726,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Equipos Automáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/cobas t 411.pdf",
+				pdfUrl: "../docs/instrumentos/cobas t 411.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas t411.png",
 			},
 			{
@@ -734,7 +734,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Equipos Automáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/cobas t 511.pdf",
+				pdfUrl: "../docs/instrumentos/cobas t 511.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas t511.png",
 			},
 			{
@@ -742,7 +742,7 @@ export const categorias = [
 				brand: "Stago",
 				category: "Equipos Automáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/STA Satellite Max.pdf",
+				pdfUrl: "../docs/instrumentos/STA Satellite Max.pdf",
 				imgUrl: "../img/instrumentalLiviano/STA Compact Max3.png",
 			},
 			{
@@ -758,7 +758,7 @@ export const categorias = [
 				brand: "Stago",
 				category: "Equipos Automáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/STA Satellite Max.pdf",
+				pdfUrl: "../docs/instrumentos/STA Satellite Max.pdf",
 				imgUrl: "../img/instrumentalLiviano/STA Satellite Max.png",
 			},
 			{
@@ -766,7 +766,7 @@ export const categorias = [
 				brand: "Tcoag",
 				category: "Equipos Automáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/DT 100.pdf",
+				pdfUrl: "../docs/instrumentos/DT 100.pdf",
 				imgUrl: "../img/instrumentalLiviano/DT100.png",
 			},
 			{
@@ -774,7 +774,7 @@ export const categorias = [
 				brand: "Tcoag",
 				category: "Equipos Semiutomáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/KC4.pdf",
+				pdfUrl: "../docs/instrumentos/KC4.pdf",
 				imgUrl: "../img/instrumentalLiviano/KC4.png",
 			},
 			{
@@ -782,7 +782,7 @@ export const categorias = [
 				brand: "Tcoag",
 				category: "Equipos Automáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/DESTINY PLUS.pdf",
+				pdfUrl: "../docs/instrumentos/DESTINY PLUS.pdf",
 				imgUrl: "../img/instrumentalLiviano/Destiny Plus.png",
 			},
 			{
@@ -790,7 +790,7 @@ export const categorias = [
 				brand: "Tcoag",
 				category: "Equipos Automáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/DESTINY MAX.pdf",
+				pdfUrl: "../docs/instrumentos/DESTINY MAX.pdf",
 				imgUrl: "../img/instrumentalLiviano/Destiny Max.png",
 			},
 			{
@@ -798,7 +798,7 @@ export const categorias = [
 				brand: "Wiener",
 				category: "Equipos Semiutomáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/COL 1 , 2 y 4.pdf",
+				pdfUrl: "../docs/instrumentos/COL 1 , 2 y 4.pdf",
 				imgUrl: "../img/instrumentalLiviano/Col1.png",
 			},
 			{
@@ -806,7 +806,7 @@ export const categorias = [
 				brand: "Wiener",
 				category: "Equipos Semiutomáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/COL 1 , 2 y 4.pdf",
+				pdfUrl: "../docs/instrumentos/COL 1 , 2 y 4.pdf",
 				imgUrl: "../img/instrumentalLiviano/Col2.png",
 			},
 			{
@@ -814,7 +814,7 @@ export const categorias = [
 				brand: "Wiener",
 				category: "Equipos Semiutomáticos",
 				type: "Coagulación",
-				pdfUrl: "../docs/instrumentalLiviano/COL 1 , 2 y 4.pdf",
+				pdfUrl: "../docs/instrumentos/COL 1 , 2 y 4.pdf",
 				imgUrl: "../img/instrumentalLiviano/Col4.png",
 			},
 		],
@@ -829,7 +829,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Orina",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas e 411.pdf",
+				pdfUrl: "../docs/instrumentos/cobas e 411.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas e 411.png",
 			},
 			{
@@ -845,7 +845,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Orina",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas u 601.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas u 601.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas u 601.png",
 			},
 			{
@@ -853,7 +853,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Orina",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/Cobas u 701.pdf",
+				pdfUrl: "../docs/instrumentos/Cobas u 701.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas u 701.png",
 			},
 			{
@@ -861,7 +861,7 @@ export const categorias = [
 				brand: "Cobas",
 				category: "Orina",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentalLiviano/cobas 6500.pdf",
+				pdfUrl: "../docs/instrumentos/cobas 6500.pdf",
 				imgUrl: "../img/instrumentalLiviano/cobas u 6500.png",
 			},
 		],
