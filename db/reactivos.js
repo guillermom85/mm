@@ -34,7 +34,7 @@ export const categoriasReactivos = [
       "../img/representadas/roche.png",
       "../img/representadas/biosystems.png",
       "../img/representadas/wienerlab.png",
-      "../img/representadas/random.png",
+      "../img/representadas/randox.png",
       "../img/representadas/vedalab.png",
       "../img/representadas/alltest.png",
       "../img/representadas/accubiotech.png",
