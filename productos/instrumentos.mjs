@@ -113,6 +113,7 @@ $(document).ready(function () {
 			categoriaFiltradas = categoriasIniciales;
 		}
 
+		/*
 		categoriaFiltradas.productos.sort((a, b) => {
 			const brandA = a.brand.toLowerCase(); // Convert to lowercase for case-insensitive sorting
 			const brandB = b.brand.toLowerCase();
@@ -124,7 +125,7 @@ $(document).ready(function () {
 				return 1;
 			}
 			return 0;
-		});
+		});*/
 
 		categoriaFiltradas.productos.forEach((product) => {
 			let productHTML = generateProduct(product);
