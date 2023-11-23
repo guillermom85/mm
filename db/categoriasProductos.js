@@ -443,7 +443,7 @@ export const categorias = [
 		],
 	},
 	{
-		title: "Soluciones para suero",
+		title: "Soluciones Integrales para Sueros",
 		imgUrl: "../img/iconosNuevos/Soluciones para suero.png",
 		hexColor: "#132E4A",
 
