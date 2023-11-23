@@ -511,6 +511,14 @@ export const categorias = [
 				imgUrl: "../img/instrumentalLiviano/FX 40.png",
 			},
 			{
+				title: "FX TOP",
+				brand: "BD",
+				category: "Hemocultivo / Microbiología",
+				type: "Equipos Automáticos ",
+				pdfUrl: "#",
+				imgUrl: "../img/instrumentalLiviano/FX TOP.png",
+			},
+			{
 				title: "M50",
 				brand: "BD",
 				category:
