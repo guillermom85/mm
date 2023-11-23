@@ -36,7 +36,7 @@ function replaceURLParameter(url, paramName, newValue) {
 function generateProduct(data) {
 	return `
   <div class="col-12 col-md-4">
-    <div class="d-flex flex-row containerProducto p-2 m-2" style="min-height: 220px">
+    <div class="d-flex flex-row containerProducto p-2 m-2" style="min-height: 240px">
       <img style=" object-fit: contain;" src="${data.imgUrl}" alt="" />
       <div class="d-flex flex-column detailsContainer p-2">
         <p class="productName my-0 pe-3">${data.title}</p>
