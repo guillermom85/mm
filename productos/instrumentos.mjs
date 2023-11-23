@@ -131,7 +131,20 @@ $(document).ready(function () {
 			container.append(productHTML);
 		});
 	} else {
-		categorias.forEach(function (data) {
+		categorias
+		.sort((a, b) => {
+			const titleA = a.title.toLowerCase(); // Convert to lowercase for case-insensitive sorting
+			const titleB = b.title.toLowerCase();
+
+			if (titleA < titleB) {
+				return -1;
+			}
+			if (titleA > titleB) {
+				return 1;
+			}
+			return 0;
+		})
+		.forEach(function (data) {
 			var html = generateCategory(data); // Create HTML code for the current data
 			container.append(html); // Append it to the container
 		});
