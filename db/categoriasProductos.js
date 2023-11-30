@@ -185,7 +185,7 @@ export const categorias = [
 		hexColor: "#FFBF30",
 		productos: [
 			{
-				title: "cobas e411",
+				title: "cobas e 411",
 				brand: "cobas",
 				category: "Endocrinología / Inmunología / Marcadores Tumorales/ Banco de Sangre",
 				type: "Equipos Automáticos",

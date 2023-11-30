@@ -5,8 +5,9 @@ $(document).ready(function () {
 		$(".wrapper").toggleClass("active");
 	});
 
+	
 	//Carga primer elemento
-	let primerElemento = $(".menu li a").first();
+	let primerElemento = window.location.hash ? window.location.hash.replace('#', '') : $(".menu li a").first();
 	primerElemento.addClass("active")
 	$(".contentContainer .title").html(`${primerElemento.text()}`);
 	let firstElement = primerElemento.text().trim();
