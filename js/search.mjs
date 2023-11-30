@@ -57,7 +57,7 @@ import { categorias } from "../db/categoriasProductos.js";
 		}).forEach(function (result) {
 			var link = `
 			<div onclick="downloadPdf('${result.producto?.pdfUrl ? result.producto.pdfUrl : 'productos/descartables.html#' + encodeURIComponent(result.descartable) }');">
-				<img src='${result.producto?.imgUrl ? result.producto.imgUrl : './img/descartablesBg.png'}' alt='${toFullText(result)}' height='50'>
+				<!--<img src='${result.producto?.imgUrl ? result.producto.imgUrl : './img/descartablesBg.png'}' alt='${toFullText(result)}' height='50'>-->
 				<span>${toFullText(result)}</span>
 			</div>`;
 			autocompleteResults.append(link);
