@@ -55,11 +55,16 @@ import { categorias } from "../db/categoriasProductos.js";
 			}
 			return 0;
 		}).forEach(function (result) {
+			let url = result.producto ? 
+				result.producto.pdfUrl : 
+				'productos/descartables.html#' + encodeURIComponent(result.descartable);
+
 			var link = `
-			<div onclick="downloadPdf('${result.producto?.pdfUrl ? result.producto.pdfUrl : 'productos/descartables.html#' + encodeURIComponent(result.descartable) }');">
+			<div onclick="if ('${url}') window.open('${url}', '_blank'); else alert('No se ha encontrado el PDF para el producto seleccionado'); $('#myModal').css('display', 'none');">
 				<!--<img src='${result.producto?.imgUrl ? result.producto.imgUrl : './img/descartablesBg.png'}' alt='${toFullText(result)}' height='50'>-->
 				<span>${toFullText(result)}</span>
 			</div>`;
+			
 			autocompleteResults.append(link);
 		});
 	});
@@ -87,11 +92,6 @@ function toFullText(entity) {
 }
 
 function downloadPdf(url) {
-	if (url)
-		window.open(url, '_blank');
-	else
-		alert('No se ha encontrado el PDF para el producto seleccionado');
-
-	$('#myModal').css('display', 'none');
+	
 }
 
