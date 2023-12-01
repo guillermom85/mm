@@ -461,7 +461,7 @@ h6,
 
 .about-img {
 	background-image: url(../img/fondos/about.svg);
-	background-size: cover;
+	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	display: flex;
@@ -475,7 +475,7 @@ h6,
 
 .institucional .about-img {
 	justify-content: center;
-	padding-left: 0;
+	padding-left: 10%;
 	border-radius: 15px;
 }
 
@@ -1265,6 +1265,10 @@ body {
 	display: block;
 }
 
+.hiddenMobileGrid {
+	display: grid;
+}
+
 @media screen and (min-width: 768px) {
 	.trajectoryText {
 		margin-left: 2rem;
@@ -1296,7 +1300,12 @@ body {
 	}
 
 	.video-container video {
-		margin-top: 0 !important;
+		margin-top: 88px !important;
+		-moz-transform:scale(1.5);
+		-webkit-transform:scale(1.5);
+		-o-transform:scale(1.5);
+		-ms-transform:scale(1.5);
+		transform:scale(1.5);
 	}
 
 	.institucional .about-img {
@@ -1359,6 +1368,10 @@ body {
 		display: none;
 	}
 
+	.hiddenMobileGrid{
+		display: none;
+	}
+
 	.trajectoryText {
 		text-align: center !important;
 		font-size: 26px !important;
@@ -1375,7 +1388,6 @@ body {
 	/* Cards Container */
 
 	.home-card-container {
-		display: grid;
 		grid-template-columns: 1fr 1fr;
 	}
 
@@ -1398,7 +1410,6 @@ body {
 
 @media screen and (max-width: 576px) {
 	.home-card-container {
-		display: grid;
 		grid-template-columns: 1fr;
 	}
 

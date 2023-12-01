@@ -138,8 +138,9 @@ hover	#024474
       <div class="contactenos">
         <a href="./index.html#formContacto"><img src="./img/mail.png" alt="" /></a>
         <a target="_blank" href="https://www.instagram.com/medio.medico.srl/"><img src="./img/instagram.png" alt=""></a>
-        <a target="_blank" href="https://www.facebook.com/mediomedico"><img src="./img/facebook.png" alt=""></a>  
-        <a target="_blank" href="https://ar.linkedin.com/company/medio-medico-srl"><img src="./img/linkedin.png" alt=""></a>
+        <a target="_blank" href="https://www.facebook.com/mediomedico"><img src="./img/facebook.png" alt=""></a>
+        <a target="_blank" href="https://ar.linkedin.com/company/medio-medico-srl"><img src="./img/linkedin.png"
+            alt=""></a>
       </div>
     </div>
   </nav>
@@ -217,6 +218,120 @@ hover	#024474
 
   <!-- Productos End -->
 
+  <!-- About Start -->
+  <div class="container-xxl py-3 hiddenDesktop">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 wow fadeIn p-0" data-wow-delay="0.1s">
+          <div style="display: flex; flex-direction: column; align-items: flex-start; justify-content: center;"
+            class="about-img">
+            <p style="font-size: 3rem; color: white !important;">
+              Quiénes
+              <br>
+              <span style="font-weight: 100;">somos?</span>
+            </p>
+            <div style="height: 4px; width: 10%; background-color: white;">&nbsp;</div>
+          </div>
+        </div>
+
+        <div class="col-lg-6 wow fadeIn about-text" data-wow-delay="0.5s">
+          <p>
+            <span style="font-weight: 500;"> Medio Médico</span> es una empresa familiar formada por un
+            equipo de profesionales multidisciplinarios, orientada a
+            brindar una Solución Integral a Laboratorios en la zona de
+            Rosario y un radio de <span style="font-family: Open Sans, sans-serif;">250</span>km. <span
+              style="font-weight: 500;">Nos
+              especializamos en la
+              comercialización de equipamientos, instrumentos, insumos,
+              reactivos, descartables, repuestos y soluciones informáticas.</span>
+            Brindamos asesoramiento Bioquímico personalizado pre y
+            post venta. Nuestro equipo de Ingenieros y personal de IT
+            calificado realizan instalaciones, mantenimientos correctivos y
+            preventivos de equipos a nuestros clientes.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+      <!-- Appointment Start -->
+      <div class="container-xxl py-5 hiddenDesktop" id="formContacto">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <h4 class="section-title">Contacto</h4>
+                    <h1 class="display-5 mb-4 page-blue">Háganos su consulta</h1>
+                    <p class="mb-4">Si desea contactarse con nosotros, por consultas o sugerencias, favor complete el
+                        formulario que se presenta a continuación y nos comunicaremos con Ud. a la brevedad.</p>
+                    <div class="row g-4">
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center "
+                                    style="width: 65px; height: 65px;">
+                                    <img style="width: 65px;" src="./img/contacto.png" alt="icono contacto">
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-2">Nro de contacto</p>
+                                    <h3 class="mb-0 page-blue"
+                                        style="font-family: Open Sans, sans-serif; color: #3d5998 !important; ">+54 341
+                                        480 5000</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="d-flex">
+                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center "
+                                    style="width: 65px; height: 65px;">
+                                    <img style="width: 65px;" src="./img/correo.png" alt="Icono correo">
+                                </div>
+                                <div class="ms-4">
+                                    <p class="mb-2">Email de contacto</p>
+                                    <h3 class="mb-0"
+                                        style="font-family: Open Sans, sans-serif;  color: #3d5998 !important;">
+                                        info@mediomedico.com.ar
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3">
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre completo"
+                                style="height: 55px;" maxlength="256">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="email" class="form-control" id="inputCorreo" placeholder="Correo electrónico"
+                                style="height: 55px;" maxlength="256">
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono"
+                                style="height: 55px;" maxlength="256">
+                        </div>
+                        <div class="col-12 col-sm-6">
+
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" id="inputMensaje" rows="5" placeholder="Mensaje"
+                                maxlength="4000"></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button class="btn btn-primary w-100 py-3" type="button"
+                                onclick="sendMessage();">Enviar</button>
+                        </div>
+                        <div class="col-12">
+                            <span id="formResult"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Appointment End -->
+
   <!-- Footer Start -->
   <div class="container-fluid footer-bg text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
     <div class="container py-5">
@@ -231,8 +346,8 @@ hover	#024474
             <i class="fa fa-phone-alt text-white me-3"></i>+54 341 480 5000
           </p>
           <p class="mb-2 text-white" style="font-family: Open Sans, sans-serif !important">
-						<i class="fab fa-whatsapp text-white me-3"></i>+54 341 279 8316
-					</p>
+            <i class="fab fa-whatsapp text-white me-3"></i>+54 341 279 8316
+          </p>
           <p class="mb-2 text-white" style="font-family: Open Sans, sans-serif !important">
             <i class="fa fa-envelope text-white me-3"></i>info@mediomedico.com.ar
           </p>
@@ -298,7 +413,8 @@ hover	#024474
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
-	<script type="module" src="js/search.mjs"></script>
+  <script type="module" src="js/search.mjs"></script>
+  <script src="js/contacto.mjs"></script>
 </body>
 
 </html>
