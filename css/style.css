@@ -1285,6 +1285,10 @@ body {
 	}
 }
 
+.ver-productos {
+	margin-top: -6px;
+}
+
 @media screen and (max-width: 991px) {
 	.navbar {
 		background-color: #3d5998;
@@ -1300,7 +1304,7 @@ body {
 	}
 
 	.video-container video {
-		margin-top: 88px !important;
+		margin-top: 140px !important;
 		-moz-transform:scale(1.5);
 		-webkit-transform:scale(1.5);
 		-o-transform:scale(1.5);
@@ -1370,6 +1374,10 @@ body {
 
 	.hiddenMobileGrid{
 		display: none;
+	}
+
+	.ver-productos {
+		margin-top: 50px;
 	}
 
 	.trajectoryText {
