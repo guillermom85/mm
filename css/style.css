@@ -213,12 +213,16 @@ h6,
 		opacity: 1;
 	}
 
-	.navbar .collapse {
-		margin-left: 20%;
-	}
+
 
 	.navbar .collapse a {
 		font-size: 14px;
+	}
+}
+
+@media (min-width: 1024px) {
+	.navbar .collapse {
+		margin-left: 20%;
 	}
 }
 
