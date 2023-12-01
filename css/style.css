@@ -20,9 +20,11 @@ body {
 	--dark: #0032579e;
 }
 
+/*
 body {
 	max-width: 1700px;
 }
+*/
 
 h1,
 h2,
@@ -120,6 +122,9 @@ h6,
 }
 
 /*** Navbar ***/
+.header-menu {
+	max-width: 1000px;
+}
 .header-menu #navbarCollapse .nav-item,
 .header-menu #navbarCollapse .nav-link.dropdown-toggle {
 	color: white;
