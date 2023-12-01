@@ -61,7 +61,7 @@ import { categorias } from "../db/categoriasProductos.js";
 
 			var link = `
 			<div onclick="if ('${url}') window.open('${url}', '_blank'); else alert('No se ha encontrado el PDF para el producto seleccionado'); $('#myModal').css('display', 'none');">
-				<!--<img src='${result.producto?.imgUrl ? result.producto.imgUrl : './img/descartablesBg.png'}' alt='${toFullText(result)}' height='50'>-->
+				<img src='${result.producto?.imgUrl ? result.producto.imgUrl : './img/descartablesBg.png'}' alt='${toFullText(result)}' height='50'>
 				<span>${toFullText(result)}</span>
 			</div>`;
 			
