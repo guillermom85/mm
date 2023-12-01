@@ -256,81 +256,93 @@ hover	#024474
   </div>
   <!-- About End -->
 
-      <!-- Appointment Start -->
-      <div class="container-xxl py-5 hiddenDesktop" id="formContacto">
-        <div class="container">
-            <div class="row g-5">
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <h4 class="section-title">Contacto</h4>
-                    <h1 class="display-5 mb-4 page-blue">Háganos su consulta</h1>
-                    <p class="mb-4">Si desea contactarse con nosotros, por consultas o sugerencias, favor complete el
-                        formulario que se presenta a continuación y nos comunicaremos con Ud. a la brevedad.</p>
-                    <div class="row g-4">
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center "
-                                    style="width: 65px; height: 65px;">
-                                    <img style="width: 65px;" src="./img/contacto.png" alt="icono contacto">
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Nro de contacto</p>
-                                    <h3 class="mb-0 page-blue"
-                                        style="font-family: Open Sans, sans-serif; color: #3d5998 !important; ">+54 341
-                                        480 5000</h3>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-12">
-                            <div class="d-flex">
-                                <div class="d-flex flex-shrink-0 align-items-center justify-content-center "
-                                    style="width: 65px; height: 65px;">
-                                    <img style="width: 65px;" src="./img/correo.png" alt="Icono correo">
-                                </div>
-                                <div class="ms-4">
-                                    <p class="mb-2">Email de contacto</p>
-                                    <h3 class="mb-0"
-                                        style="font-family: Open Sans, sans-serif;  color: #3d5998 !important;">
-                                        info@mediomedico.com.ar
-                                    </h3>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+  <!-- Appointment Start -->
+  <div class="container-xxl py-5 hiddenDesktop" id="formContacto">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <h4 class="section-title">Contacto</h4>
+          <h1 class="display-5 mb-4 page-blue">Háganos su consulta</h1>
+          <p class="mb-4">Si desea contactarse con nosotros, por consultas o sugerencias, favor complete el
+            formulario que se presenta a continuación y nos comunicaremos con Ud. a la brevedad.</p>
+          <div class="row g-4">
+            <div class="col-12">
+              <div class="d-flex">
+                <div class="d-flex flex-shrink-0 align-items-center justify-content-center "
+                  style="width: 65px; height: 65px;">
+                  <img style="width: 65px;" src="./img/contacto.png" alt="icono contacto">
                 </div>
-                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-3">
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" id="inputNombre" placeholder="Nombre completo"
-                                style="height: 55px;" maxlength="256">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="email" class="form-control" id="inputCorreo" placeholder="Correo electrónico"
-                                style="height: 55px;" maxlength="256">
-                        </div>
-                        <div class="col-12 col-sm-6">
-                            <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono"
-                                style="height: 55px;" maxlength="256">
-                        </div>
-                        <div class="col-12 col-sm-6">
-
-                        </div>
-                        <div class="col-12">
-                            <textarea class="form-control" id="inputMensaje" rows="5" placeholder="Mensaje"
-                                maxlength="4000"></textarea>
-                        </div>
-                        <div class="col-12">
-                            <button class="btn btn-primary w-100 py-3" type="button"
-                                onclick="sendMessage();">Enviar</button>
-                        </div>
-                        <div class="col-12">
-                            <span id="formResult"></span>
-                        </div>
-                    </div>
+                <div class="ms-4">
+                  <p class="mb-2">Nro de contacto</p>
+                  <h3 class="mb-0 page-blue" style="font-family: Open Sans, sans-serif; color: #3d5998 !important; ">+54
+                    341
+                    480 5000</h3>
                 </div>
+              </div>
             </div>
+            <div class="col-12" style="cursor: pointer;" onclick="goToWhatsapp();">
+              <div class="d-flex">
+                <div class="d-flex flex-shrink-0 align-items-center justify-content-center "
+                  style="width: 65px; height: 65px;">
+                  <img style="width: 65px;" src="./img/contacto-wa.png" alt="Icono correo">
+                </div>
+                <div class="ms-4">
+                  <p class="mb-2">Whatsapp</p>
+                  <h3 class="mb-0" style="font-family: Open Sans, sans-serif;  color: #3d5998 !important;">
+                    +54 341 279 8316
+                  </h3>
+                </div>
+              </div>
+            </div>
+            <div class="col-12">
+              <div class="d-flex">
+                <div class="d-flex flex-shrink-0 align-items-center justify-content-center "
+                  style="width: 65px; height: 65px;">
+                  <img style="width: 65px;" src="./img/correo.png" alt="Icono correo">
+                </div>
+                <div class="ms-4">
+                  <p class="mb-2">Email de contacto</p>
+                  <h3 class="mb-0" style="font-family: Open Sans, sans-serif;  color: #3d5998 !important;">
+                    info@mediomedico.com.ar
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="row g-3">
+            <div class="col-12 col-sm-6">
+              <input type="text" class="form-control" id="inputNombre" placeholder="Nombre completo"
+                style="height: 55px;" maxlength="256">
+            </div>
+            <div class="col-12 col-sm-6">
+              <input type="email" class="form-control" id="inputCorreo" placeholder="Correo electrónico"
+                style="height: 55px;" maxlength="256">
+            </div>
+            <div class="col-12 col-sm-6">
+              <input type="text" class="form-control" id="inputTelefono" placeholder="Teléfono" style="height: 55px;"
+                maxlength="256">
+            </div>
+            <div class="col-12 col-sm-6">
+
+            </div>
+            <div class="col-12">
+              <textarea class="form-control" id="inputMensaje" rows="5" placeholder="Mensaje"
+                maxlength="4000"></textarea>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary w-100 py-3" type="button" onclick="sendMessage();">Enviar</button>
+            </div>
+            <div class="col-12">
+              <span id="formResult"></span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
-    <!-- Appointment End -->
+  </div>
+  <!-- Appointment End -->
 
   <!-- Footer Start -->
   <div class="container-fluid footer-bg text-body footer mt-5 pt-5 px-0 wow fadeIn" data-wow-delay="0.1s">
