@@ -180,7 +180,7 @@ h6,
 	width: 20px;
 }
 
-#navbarCollapse {
+#navbarCollapse .navbar-nav {
 	max-width: 1000px;
 }
 
