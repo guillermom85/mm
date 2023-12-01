@@ -182,7 +182,7 @@ blockquote {
 }
 b,
 strong {
-  font-weight: bolder;
+  font-weight: 500;
 }
 small,
 .small {
@@ -3405,7 +3405,7 @@ fieldset:disabled .btn {
   width: 100%;
   padding: 0.25rem 1rem;
   clear: both;
-  font-weight: 800;
+  font-weight: 500;
   color: white;
   text-align: inherit;
   white-space: nowrap;
