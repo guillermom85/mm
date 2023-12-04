@@ -53,10 +53,6 @@
   border-radius: 15px;
 }
 
-.stepwizard-step a {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
 .reactivosButton:hover {
   opacity: 0.5;
   transition: 0.5;
