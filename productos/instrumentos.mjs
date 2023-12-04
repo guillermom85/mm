@@ -84,7 +84,7 @@ $(document).ready(function () {
 </div>`);
 		parent.prepend(`<a class="d-flex flex-row align-items-center ms-5 mt-5" href="./instrumentos.html">
 <img style="width: 20px; height: 20px;" src="../img/backArrow.png" alt="Back arrow" class="me-2" />
-<p class="py-0 my-0" style="font-weight: 500;">Atrás</p>
+<p class="py-0 my-0" style="font-weight: 600;">Atrás</p>
 </a>`);
 
 		parent.append(``);
