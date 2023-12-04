@@ -1,9 +1,12 @@
 import { descartables } from "../db/descartables.js";
 import { categorias } from "../db/categoriasProductos.js";
 
+let searchRemoveDotPrefix = true;
+
 (function ($) {
 
-	$('nav .contactenos').append(`<a id="openModalBtn" href="#"><img src="./img/search.png" alt=""></a>`);
+
+	$('nav .contactenos').append(`<a id="openModalBtn" href="#"><img src="${searchRemoveDotPrefix ? "." : ""}./img/search.png" alt=""></a>`);
 	$('body').append(
 `<div id="myModal" class="modal">
 	<div class="modal-content">
@@ -55,13 +58,21 @@ import { categorias } from "../db/categoriasProductos.js";
 			}
 			return 0;
 		}).forEach(function (result) {
-			let url = result.producto ? 
-				result.producto.pdfUrl : 
+			let url = result.producto ?
+				(searchRemoveDotPrefix ? 
+					result.producto.pdfUrl.slice(1) : 
+					result.producto.pdfUrl) : 
 				'productos/descartables.html#' + encodeURIComponent(result.descartable);
+
+			let imgUrl = result.producto?.imgUrl ? 
+				(searchRemoveDotPrefix ? 
+					result.producto.imgUrl.slice(1) : 
+					result.producto.imgUrl) :
+				'./img/descartablesBg.png'
 
 			var link = `
 			<div onclick="if ('${url}') window.open('${url}', '_blank'); else alert('No se ha encontrado el PDF para el producto seleccionado'); $('#myModal').css('display', 'none');">
-				<img src='${result.producto?.imgUrl ? result.producto.imgUrl : './img/descartablesBg.png'}' alt='${toFullText(result)}' height='50'>
+				<img src='${imgUrl}' alt='${toFullText(result)}' height='50'>
 				<span>${toFullText(result)}</span>
 			</div>`;
 			
