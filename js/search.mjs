@@ -11,7 +11,7 @@ if(searchRemoveDotPrefix === undefined || searchRemoveDotPrefix === null)
 	$('body').append(
 `<div id="myModal" class="modal">
 	<div class="modal-content">
-		<input type="text" id="autocompleteInput" autocomplete="off" placeholder="¿Qué producto estabas buscando?">
+		<input type="text" id="autocompleteInput" autocomplete="off" style="color: black; border-bottom: 1px solid lightgray; padding: 10px;" placeholder="¿Qué producto estabas buscando?">
 		<div id="autocompleteResults" class="autocomplete-results"></div>
 	</div>
 </div>`);
