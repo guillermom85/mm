@@ -1,12 +1,13 @@
 import { descartables } from "../db/descartables.js";
 import { categorias } from "../db/categoriasProductos.js";
 
-let searchRemoveDotPrefix = true;
+if(searchRemoveDotPrefix === undefined || searchRemoveDotPrefix === null) 
+	searchRemoveDotPrefix = true;
 
 (function ($) {
 
 
-	$('nav .contactenos').append(`<a id="openModalBtn" href="#"><img src="${searchRemoveDotPrefix ? "." : ""}./img/search.png" alt=""></a>`);
+	$('nav .contactenos').append(`<a id="openModalBtn" href="#"><img src="${searchRemoveDotPrefix ? "" : "."}./img/search.png" alt=""></a>`);
 	$('body').append(
 `<div id="myModal" class="modal">
 	<div class="modal-content">
