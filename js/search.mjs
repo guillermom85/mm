@@ -63,7 +63,7 @@ if(searchRemoveDotPrefix === undefined || searchRemoveDotPrefix === null)
 				(searchRemoveDotPrefix ? 
 					result.producto.pdfUrl.slice(1) : 
 					result.producto.pdfUrl) : 
-				`${searchRemoveDotPrefix ? 'productos' : ''}/descartables.html#` + encodeURIComponent(result.descartable);
+				`${searchRemoveDotPrefix ? '' : '.'}./productos/descartables.html?#` + encodeURIComponent(result.descartable);
 
 			let imgUrl = result.producto?.imgUrl ? 
 				(searchRemoveDotPrefix ? 

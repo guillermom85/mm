@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 	
 	//Carga primer elemento
-	let primerElemento = window.location.hash ? window.location.hash.replace('#', '') : $(".menu li a").first();
+	let primerElemento = window.location.hash ? decodeURIComponent(window.location.hash.replace('#', '')) : $(".menu li a").first();
 	primerElemento.addClass("active")
 	$(".contentContainer .title").html(`${primerElemento.text()}`);
 	let firstElement = primerElemento.text().trim();
