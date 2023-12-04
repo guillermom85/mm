@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://www.mediomedico.com.ar/</loc>
+</url>
+<url>
+  <loc>http://www.mediomedico.com.ar/index</loc>
+</url>
+<url>
+  <loc>http://www.mediomedico.com.ar/calidad</loc>
+</url>
+<url>
+  <loc>http://www.mediomedico.com.ar/historia</loc>
+</url>
+<url>
+  <loc>http://www.mediomedico.com.ar/institucional</loc>
+</url>
+<url>
+  <loc>http://www.mediomedico.com.ar/productos</loc>
+</url>
+<url>
+  <loc>http://www.mediomedico.com.ar/servicioTecnico</loc>
+</url>
+</urlset>
