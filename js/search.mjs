@@ -63,13 +63,13 @@ if(searchRemoveDotPrefix === undefined || searchRemoveDotPrefix === null)
 				(searchRemoveDotPrefix ? 
 					result.producto.pdfUrl.slice(1) : 
 					result.producto.pdfUrl) : 
-				'productos/descartables.html#' + encodeURIComponent(result.descartable);
+				`${searchRemoveDotPrefix ? '' : 'productos'}/descartables.html#` + encodeURIComponent(result.descartable);
 
 			let imgUrl = result.producto?.imgUrl ? 
 				(searchRemoveDotPrefix ? 
 					result.producto.imgUrl.slice(1) : 
 					result.producto.imgUrl) :
-				'./img/descartablesBg.png'
+				`${searchRemoveDotPrefix ? '.' : ''}./img/descartablesBg.png`
 
 			var link = `
 			<div onclick="if ('${url}') window.open('${url}', '_blank'); else alert('No se ha encontrado el PDF para el producto seleccionado'); $('#myModal').css('display', 'none');">
