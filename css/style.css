@@ -49,6 +49,10 @@ h6,
 	font-weight: 400 !important;
 }
 
+p { 
+	font-size: 1.2rem;
+}
+
 .back-to-top {
 	position: fixed;
 	display: none;
@@ -1174,6 +1178,7 @@ h3 {
 	width: 80%;
 }
 
+
 /* Servicio tecnico */
 
 .servicioTecnicoHero {
@@ -1519,4 +1524,8 @@ body {
 
 .autocomplete-results div:hover {
 	background-color: #f0f0f0;
+}
+
+.menu .menu-item {
+	font-size: 1.2rem;
 }

@@ -167,7 +167,7 @@ export const categorias = [
 				category: "Anatomía Patológica",
 				type: "Equipos Automáticos",
 				pdfUrl: "../docs/instrumentos/Ventana ULTRA.pdf",
-				imgUrl: "../img/instrumentalLiviano/Benchmark XT.png",
+				imgUrl: "../img/instrumentalLiviano/Benchmark.png",
 			},
 			{
 				title: "DP200 ",
@@ -237,7 +237,7 @@ export const categorias = [
 				category: "Química Clínica",
 				type: "Equipos Automáticos",
 				pdfUrl: "../docs/instrumentos/cobas c 501.pdf",
-				imgUrl: "../img/instrumentalLiviano/cobas c 501.png",
+				imgUrl: "../img/instrumentalLiviano/c501.png",
 			},
 			{
 				title: "Metrolab 1600 DR",
@@ -541,7 +541,7 @@ export const categorias = [
 				category:
 					"Identificación Microbiana / Sensibilidad a antibióticos / Microbiología",
 				type: "Equipos Automáticos ",
-				pdfUrl: "",
+				pdfUrl: "../docs/instrumentos/MALDI Biotyper.pdf",
 				imgUrl: "../img/instrumentalLiviano/MALDI TOF.png",
 			},
 			{
