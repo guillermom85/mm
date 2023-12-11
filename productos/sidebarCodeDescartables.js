@@ -7,7 +7,7 @@ $(document).ready(function () {
 
 	//Carga primer elemento
 	let primerElemento = window.location.hash ? decodeURIComponent(window.location.hash.replace('#', '')) : $(".menu li a").first().text();
-	setCurrentElement(primerElemento);
+	setCurrentElement(primerElemento.trim());
 
 	$(".menu li a").click(function (e) {
 		e.preventDefault(); // Prevent default behavior (following the link)
