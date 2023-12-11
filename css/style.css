@@ -1529,3 +1529,32 @@ body {
 .menu .menu-item {
 	font-size: 1.2rem;
 }
+
+@media screen and (min-width: 1440px) {
+	.institucional .title{
+		max-width: 1320px;
+		margin: 0 auto;
+		padding: 0%;
+	}
+
+	.trajectory-content .title{
+		margin: 0 auto;
+		padding: 0 2%;
+	}
+
+	.trajectory-img{
+		margin: 0 5%;
+	}
+
+	.providers-content{
+		max-width: 1320px;
+	}
+
+	.providers-content .logos{
+		padding: 0 2%;
+	}
+
+	.home-card-container{
+		margin: 0 1.5%;
+	}
+}
