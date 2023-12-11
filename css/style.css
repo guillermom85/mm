@@ -1535,7 +1535,7 @@ body {
 	padding-top: 0 !important;
 }
 
-@media screen and (max-device-width:1440px), screen and (max-width:1440px) {
+@media screen and (min-width: 1025px) {
 	.institucional .title{
 		max-width: 1320px;
 		margin: 0 auto;
