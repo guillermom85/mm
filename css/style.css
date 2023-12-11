@@ -1530,7 +1530,7 @@ body {
 	font-size: 1.2rem;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-device-width:1440px), screen and (max-width:1440px) {
 	.institucional .title{
 		max-width: 1320px;
 		margin: 0 auto;
@@ -1547,11 +1547,10 @@ body {
 	}
 
 	.providers-content{
-		max-width: 1320px;
-	}
-
-	.providers-content .logos{
-		padding: 0 2%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5rem !important;
 	}
 
 	.home-card-container{
