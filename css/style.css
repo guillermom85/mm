@@ -464,6 +464,7 @@ p {
 	padding-left: 0;
 	padding-right: 0;
 	margin-right: 0;
+	padding-top: 0 !important;
 }
 
 .about-img {
@@ -1528,4 +1529,36 @@ body {
 
 .menu .menu-item {
 	font-size: 1.2rem;
+}
+
+.mission{
+	padding-top: 0 !important;
+}
+
+@media screen and (min-width: 1025px) {
+	.institucional .title{
+		max-width: 1320px;
+		margin: 0 auto;
+		padding: 0%;
+	}
+
+	.trajectory-content .title{
+		margin: 0 auto;
+		padding: 0 2%;
+	}
+
+	.trajectory-img{
+		margin: 0 5%;
+	}
+
+	.providers-content{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding: 5rem !important;
+	}
+
+	.home-card-container{
+		margin: 0 1.5%;
+	}
 }
