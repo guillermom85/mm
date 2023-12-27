@@ -1,6 +1,3 @@
-import { descartables } from "../db/descartables.js";
-import { categorias } from "../db/categoriasProductos.js";
-
 if(searchRemoveDotPrefix === undefined || searchRemoveDotPrefix === null) 
 	searchRemoveDotPrefix = true;
 

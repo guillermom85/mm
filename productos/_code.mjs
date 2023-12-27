@@ -1,5 +1,3 @@
-import { categoriasReactivos } from "../db/reactivos.js";
-
 $(document).ready(function () {
   let reactivosContent = document.getElementById("reactivosContent");
 

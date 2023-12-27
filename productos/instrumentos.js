@@ -1,4 +1,3 @@
-import { categorias } from "../db/categoriasProductos.js";
 
 function generateCategory(data) {
 	return `

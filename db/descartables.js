@@ -1,4 +1,4 @@
-export const descartables = [
+const descartables = [
 	{
 		title: "Preanalítica",
 		items: [

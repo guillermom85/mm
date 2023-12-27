@@ -1,4 +1,4 @@
-export const categorias = [
+const categorias = [
 	{
 		title: "Autoinmunidad",
 		imgUrl: "../img/iconosNuevos/Autoinmunidad.png",

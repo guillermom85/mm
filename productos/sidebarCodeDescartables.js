@@ -1,4 +1,3 @@
-import { descartables } from "../db/descartables.js";
 
 $(document).ready(function () {
 	$(".push_menu").click(function () {

@@ -1,4 +1,4 @@
-export const categoriasReactivos = [
+const categoriasReactivos = [
   {
     categoria: "Autoinmunidad",
     logos: ["../img/representadas/biosystems.png"],

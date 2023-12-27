@@ -1,5 +1,3 @@
-import { categoriasInstrumentalLiviano } from "../db/instrumentalLiviano.js";
-
 $(document).ready(function () {
 	$(".push_menu").click(function () {
 		$(".wrapper").toggleClass("active");

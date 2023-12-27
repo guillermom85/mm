@@ -1,4 +1,3 @@
-import { categoriasReactivos } from "../db/reactivos.js";
 
 $(document).ready(function () {
 	$(".push_menu").click(function () {

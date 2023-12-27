@@ -1,4 +1,4 @@
-export const tiposDeInstrumentales = [
+const tiposDeInstrumentales = [
   "Todos",
   "Agitadores",
   "Balanzas",
@@ -17,7 +17,7 @@ export const tiposDeInstrumentales = [
   "Otros",
 ];
 
-export const productos = [
+const productos = [
   {
     id: "1",
     title: "Desecador en Vidrio",
