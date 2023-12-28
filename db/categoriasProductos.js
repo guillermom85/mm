@@ -16,7 +16,7 @@ const categorias = [
 	},
 	{
 		title: "Contadores hematológicos",
-		imgUrl: "../img/iconosNuevos/Contadores Hemotalógicos.png",
+		imgUrl: "../img/iconosNuevos/Contadores Hemotalogicos.png",
 		hexColor: "#714284",
 		productos: [
 			{
@@ -150,7 +150,7 @@ const categorias = [
 	},
 	{
 		title: "Anatomía Patológica",
-		imgUrl: "../img/iconosNuevos/Anatomía Patológica.png",
+		imgUrl: "../img/iconosNuevos/Anatomia Patologica.png",
 		hexColor: "#E676BA",
 		productos: [
 			{
@@ -158,7 +158,7 @@ const categorias = [
 				brand: "Ventana",
 				category: "Anatomía Patológica",
 				type: "Equipos Automáticos",
-				pdfUrl: "../docs/instrumentos/Benchmark GX español.pdf",
+				pdfUrl: "../docs/instrumentos/Benchmark GX espanol.pdf",
 				imgUrl: "../img/instrumentalLiviano/Benchmark GX.png",
 			},
 			{
@@ -180,8 +180,8 @@ const categorias = [
 		],
 	},
 	{
-		title: "Endocrinología, Inmuno, Marcadores tumorales",
-		imgUrl: "../img/iconosNuevos/Endocrinología, Inmuno, Marcadores tumorales.png",
+		title: "Endocrinologia, Inmuno, Marcadores tumorales",
+		imgUrl: "../img/iconosNuevos/Endocrinologia, Inmuno, Marcadores tumorales.png",
 		hexColor: "#FFBF30",
 		productos: [
 			{
@@ -212,7 +212,7 @@ const categorias = [
 	},
 	{
 		title: "Química Clínica",
-		imgUrl: "../img/iconosNuevos/Química Clínica.png",
+		imgUrl: "../img/iconosNuevos/Quimica Clinica.png",
 		hexColor: "#6B8C49",
 		productos: [
 			{
@@ -390,7 +390,7 @@ const categorias = [
 	},
 	{
 		title: "Biología Molecular",
-		imgUrl: "../img/iconosNuevos/Biología Molecular.png",
+		imgUrl: "../img/iconosNuevos/Biologia Molecular.png",
 		hexColor: "#0697D5",
 		productos: [
 			{
@@ -421,7 +421,7 @@ const categorias = [
 	},
 	{
 		title: "Eritrosedimentación",
-		imgUrl: "../img/iconosNuevos/Eritrosedimentaciòn.png",
+		imgUrl: "../img/iconosNuevos/Eritrosedimentacion.png",
 		hexColor: "#0E0D0D",
 		productos: [
 			{
@@ -446,7 +446,6 @@ const categorias = [
 		title: "Soluciones Integrales para Sueros",
 		imgUrl: "../img/iconosNuevos/Soluciones para suero.png",
 		hexColor: "#132E4A",
-
 		productos: [
 			{
 				title: "cobas Pure",
@@ -468,7 +467,7 @@ const categorias = [
 	},
 	{
 		title: "Cardiología",
-		imgUrl: "../img/iconosNuevos/Cardiología.png",
+		imgUrl: "../img/iconosNuevos/Cardiologia.png",
 		hexColor: "#7B1314",
 		productos: [
 			{
@@ -507,7 +506,7 @@ const categorias = [
 	},
 	{
 		title: "Microbiología",
-		imgUrl: "../img/iconosNuevos/Microbiología.png",
+		imgUrl: "../img/iconosNuevos/Microbiologia.png",
 		hexColor: "#EE913E",
 		productos: [
 			{
@@ -635,7 +634,7 @@ const categorias = [
 	},
 	{
 		title: "Citrometría de flujo",
-		imgUrl: "../img/iconosNuevos/Citometría de flujo.png",
+		imgUrl: "../img/iconosNuevos/Citometria de flujo.png",
 		hexColor: "#F2BC7D",
 		productos: [
 			{
@@ -714,7 +713,7 @@ const categorias = [
 	},
 	{
 		title: "Coagulación",
-		imgUrl: "../img/iconosNuevos/Coagulaciòn.png",
+		imgUrl: "../img/iconosNuevos/Coagulacion.png",
 		hexColor: "#A7EAED",
 		productos: [
 			{
