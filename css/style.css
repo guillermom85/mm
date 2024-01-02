@@ -941,7 +941,7 @@ h3 {
 }
 
 .home-card-container p {
-	cursor: default;
+	cursor: pointer;
 	font-weight: 500;
 }
 
