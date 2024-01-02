@@ -1535,6 +1535,10 @@ body {
 	padding-top: 0 !important;
 }
 
+.hidden{
+	display: none;
+}
+
 @media screen and (min-width: 1025px) {
 	.institucional .title{
 		max-width: 1320px;
@@ -1560,5 +1564,16 @@ body {
 
 	.home-card-container{
 		margin: 0 1.5%;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#index-container .about-text p{
+		font-size: 1rem;
+    	text-align: left;
+	}
+
+	#index-container .about-text {
+		padding: 3rem 3rem 0;
 	}
 }
