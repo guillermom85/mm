@@ -1459,7 +1459,7 @@ body {
 	}
 
 	.navbar {
-		padding: 2rem;
+		padding: 1.5rem;
 	}
 
 	/* Textos */
@@ -1585,5 +1585,15 @@ body {
 @media screen and (max-width: 320px) {
 	#formContacto h3 {
 		font-size: calc(0.7rem + 0.6vw);
+	}
+}
+
+@media screen and (min-width: 426px) {
+	.nav-responsive{
+		display: none !important;
+	}
+
+	.nav-desktop{
+		display: block;
 	}
 }
