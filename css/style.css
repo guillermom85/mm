@@ -1576,4 +1576,14 @@ body {
 	#index-container .about-text {
 		padding: 3rem 3rem 0;
 	}
+
+	#formContacto h3 {
+		font-size: calc(1rem + 0.6vw);
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#formContacto h3 {
+		font-size: calc(0.7rem + 0.6vw);
+	}
 }
