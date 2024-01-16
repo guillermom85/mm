@@ -40,8 +40,9 @@ function sendMessage() {
   };
 
   $.ajax({
-    url: "http://181.13.244.114:8065/api/Security/Contact",
+    url: "https://clientes-api.mediomedico.com.ar/api/Security/Contact",
     type: "POST",
+    crossDomain: true,
     data: JSON.stringify({
       "Json": JSON.stringify(formData),
       "Message": "La siguiente información ha sida enviada desde el sitio web.",
