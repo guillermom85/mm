@@ -1539,6 +1539,48 @@ body {
 	display: none;
 }
 
+.servTecnico-form-content{
+	visibility: visible;
+	animation-delay: 0.5s;
+	animation-name: fadeInUp;
+}
+
+.servTecnico-form-content .row {
+	margin-top: 1em;
+}
+
+.servTecnico-form-content .accesoriosEnviados-content{
+	margin-top: 2em;
+	text-align: center;
+	font-weight: 500;
+}
+
+.servTecnico-form-content .accesoriosEnviados-content p{
+	font-size: 1.3rem;
+}
+
+.servTecnico-form-content .accesoriosEnviados-titles p{
+	text-align: center;
+	font-weight: 500;
+}
+
+.footer .servTecnico-form .form-control {
+    color: var(--bs-primary) !important;
+	border: 1px solid #3d5998 !important;
+}
+
+.servTecnico-form-content .legend p{
+	text-align: center;
+	font-size: 1rem;
+	margin-top: 1em;
+} 
+
+@media screen and (max-width: 767px) {
+	.accesoriosEnviados-titles{
+		display: none;
+	}
+}
+
 @media screen and (min-width: 1025px) {
 	.institucional .title{
 		max-width: 1320px;
@@ -1597,3 +1639,4 @@ body {
 		display: block;
 	}
 }
+

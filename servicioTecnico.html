@@ -202,8 +202,92 @@ hover	#024474
         </div>
       </div>
     </div>
+    <div class="py-5 servTecnico-form">
+      <div class="container-xxl" id="formServicioTecnico">
+          <h1 class="display-5 mb-4 page-blue">Formulario de envío de equipos para reparaciones de taller</h1>
+          <div class="container row g-2">
+              <div class="col-lg-12 wow fadeInUp servTecnico-form-content" data-wow-delay="0.5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+                  <div class="row">
+                      <div class="col-12 col-md-8 hiddenMobile"></div>
+                      <div class="col-12 col-md-4">
+                          <label for="inputFechaEnvio"><p>Fecha de envío:</p></label>
+                          <input type="date" class="form-control" id="inputFechaEnvio" maxlength="256">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12 col-md-8">
+                          <label for="inputInstrumento"><p>Instrumento:</p></label>
+                          <input type="text" class="form-control" id="inputInstrumento" style="" maxlength="256">
+                      </div>
+                      <div class="col-12 col-md-4" style="">
+                          <label for="inputNroSerie"><p>Nro. de Serie:</p></label>
+                          <input type="email" class="form-control" id="inputNroSerie" maxlength="256">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12">
+                          <label for="inputMotivo"><p>Motivo:</p></label>
+                          <textarea class="form-control" id="inputMotivo" rows="4" maxlength="4000"></textarea>
+                      </div>
+                  </div>
+                  <div class="row accesoriosEnviados-content">
+                      <div class="col-12">
+                          <p>ACCESORIOS ENVIADOS</p>
+                      </div>
+                  </div>
+                  <div class="row accesoriosEnviados-titles">
+                      <div class="col-3">
+                          <p>PARTES</p>
+                      </div>
+                      <div class="col-9">
+                          <p>DETALLE</p>
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12 col-md-4 col-lg-3">
+                          <label for="inputCables"><p>Cables:</p></label>
+                      </div>
+                      <div class="col-12 col-md-8 col-lg-9">
+                          <input type="text" class="form-control" id="inputCables" maxlength="256">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12 col-md-4 col-lg-3">
+                          <label for="inputTuberias"><p>Tuberías:</p></label>
+                      </div>
+                      <div class="col-12 col-md-8 col-lg-9">
+                          <input type="text" class="form-control" id="inputTuberias" maxlength="256">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12 col-md-4 col-lg-3">
+                          <label for="inputReactivos"><p>Reactivos/Consumibles:</p></label>
+                      </div>
+                      <div class="col-12 col-md-8 col-lg-9">
+                          <input type="text" class="form-control" id="inputReactivos" maxlength="256">
+                      </div>
+                  </div>
+                  <div class="row">
+                      <div class="col-12 col-md-4 col-lg-3">
+                          <label for="inputOtros"><p>Otros:</p></label>
+                      </div>
+                      <div class="col-12 col-md-8 col-lg-9">
+                          <textarea class="form-control" id="inputOtros" rows="3" maxlength="2000"></textarea>
+                      </div>
+                  </div>
+                  <div class="row col-12 legend">
+                      <p>(Medio Médico NO se hace responsable por los elementos no declarados por el Cliente)</p>
+                  </div>
+                  <div class="row col-12">
+                      <button class="btn btn-primary w-100 py-3" type="button" onclick="sendMessage();">Enviar</button>
+                  </div>
+                  <div class="row col-12">
+                      <span id="formResult"></span>
+                  </div>
+              </div>
+          </div>
+      </div>
   </div>
-
   <!-- Servicio tecnico End -->
 
   <!-- Footer Start -->
@@ -287,6 +371,7 @@ hover	#024474
 
   <!-- Template Javascript -->
   <script src="js/main.js"></script>
+  <script src="./js/servicioTecnico.js"></script>
   <script src="db/categoriasProductos.js"></script>
   <script src="db/descartables.js"></script>
   <script src="db/instrumentalLiviano.js"></script>
