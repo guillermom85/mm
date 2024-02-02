@@ -1575,6 +1575,11 @@ body {
 	margin-top: 1em;
 } 
 
+.download-link{
+	font-weight: 500;
+	font-size: 1.2em;
+}
+
 @media screen and (max-width: 767px) {
 	.accesoriosEnviados-titles{
 		display: none;
