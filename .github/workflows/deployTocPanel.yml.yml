@@ -16,7 +16,7 @@ jobs:
       - name: 📂 Sync folders and files to the server
         uses: SamKirkland/FTP-Deploy-Action@4.3.3
         with:
-          server: 167.250.5.12:21
+          server: ftp.mediomedico.com.ar
           username: github-prod@mediomedico.com.ar
           password: _5hNmDJfl9Gc
           
