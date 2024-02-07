@@ -15,7 +15,7 @@ jobs:
           repository_root: '/home4/medmedi/clientes.mediomedico.com.ar'
           branch: main
           cpanel_token: '4IZYYOUYX8M3PRBCHCXY89Q0PFGEKTNF'
-          cpanel_username: 'marinacordoba@mediomedico.com.ar'
+          cpanel_username: marinacordoba@mediomedico.com.ar
       - name: echo deploy-duration
         run: echo "Deployment took ${{ steps.deploy.outputs.duration }} milliseconds"
           
