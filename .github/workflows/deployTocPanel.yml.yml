@@ -13,7 +13,7 @@ jobs:
         with:
           hostname: 'https://neo.servidoraweb.net'
           repository_root: '/home4/medmedi/repositories/mm'
-          branch: main
+          branch: master
           cpanel_token: '4IZYYOUYX8M3PRBCHCXY89Q0PFGEKTNF'
           cpanel_username: medmedi
       - name: echo deploy-duration
