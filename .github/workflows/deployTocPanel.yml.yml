@@ -12,7 +12,7 @@ jobs:
         uses: pinkasey/cpanel-deploy-action@v1.1.2
         with:
           hostname: 'https://neo.servidoraweb.net'
-          repository_root: '/home4/medmedi/public_html/test'
+          repository_root: '/home4/medmedi/repositories/mm'
           branch: main
           cpanel_token: '4IZYYOUYX8M3PRBCHCXY89Q0PFGEKTNF'
           cpanel_username: medmedi
