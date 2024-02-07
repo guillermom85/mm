@@ -4,20 +4,17 @@ on:
     branches:
       - master
 jobs:
-  FTP-Deploy-Action:
-    name: 🎉 Deploy
+  deploy:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 🚚 Get latest code
-        uses: actions/checkout@v3
+      - name: Deploy to cPanel
+        id: deploy
+        uses: pinkasey/cpanel-deploy-action@v1.1.2
         with:
-          fetch-depth: 2
-      - name: 📂 Sync folders and files to the server
-        uses: SamKirkland/FTP-Deploy-Action@4.3.3
-        with:
-          server: ftp.mediomedico.com.ar
-          username: github-prod@mediomedico.com.ar
-          password: _5hNmDJfl9Gc
-          exclude: '.git'
+          hostname: 'https://neo.servidoraweb.net'
+          repository_root: '/home4/medmedi/clientes.mediomedico.com.ar'
+          branch: main
+          cpanel_token: '4IZYYOUYX8M3PRBCHCXY89Q0PFGEKTNF'
+      - name: echo deploy-duration
+        run: echo "Deployment took ${{ steps.deploy.outputs.duration }} milliseconds"
           
